@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Not Found</title>
+    <link rel="stylesheet" href="https://use.typekit.net/yrl7rjf.css"> <!-- Adobe Font link -->
+    <link rel="stylesheet" href="css/design.css">
+    
+    <!-- Web Components -->
+    <script src="scripts/components.js"></script>
+</head>
+
+<style>
+  .error-content {
+    padding: 60px 20px;
+  }
+
+  .error-content h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+  }
+
+  .error-content p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+  }
+
+  .redirect-timer {
+    color: var(--bright-purple);
+    font-weight: 700;
+  }
+
+  .home-button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 24px;
+    background: var(--nav-bg);
+    border: var(--border-width) solid var(--outline-color);
+    border-radius: 4px;
+    color: var(--text-color);
+    text-decoration: none;
+    font-family: "attribute-mono", sans-serif;
+    font-weight: 500;
+    transition: all 0.3s ease;
+  }
+
+  .home-button:hover {
+    background: var(--bright-purple);
+    border-color: var(--bright-purple);
+    color: #ffffff;
+  }
+</style>
+
+<body>
+  
+  <main>    
+    <div class="error-content">
+      <h1 class="rainbow-text">404</h1>
+      <p>Oops! This page doesn't exist.</p>
+      <p>Redirecting you home in <span class="redirect-timer" id="countdown">5</span> seconds...</p>
+      <a href="index.html" class="home-button">Go Home Now ></a>
+    </div>
+  </main>
+
+  <site-nav></site-nav>
+  <site-footer></site-footer>
+
+  <script>
+    // Auto-redirect to home after 5 seconds
+    let seconds = 5;
+    const countdownElement = document.getElementById('countdown');
+    
+    const countdown = setInterval(() => {
+      seconds--;
+      countdownElement.textContent = seconds;
+      
+      if (seconds <= 0) {
+        clearInterval(countdown);
+        window.location.href = '/index.html';
+      }
+    }, 1000);
+  </script>
+
+</body>
+</html>

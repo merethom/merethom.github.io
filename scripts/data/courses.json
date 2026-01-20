@@ -1,0 +1,41 @@
+{
+  "courses": [
+    {
+      "id": "specialTopics",
+      "program": "ixd",
+      "fullCourseName": "Special Topics in Interaction Design",
+      "shortCourseName": "Special Topics",
+      "navigationName": "Special Topics",
+      "courseCode": "DESN34655",
+      "courseHeading": "How to design when you're burnt out",
+      "term": "winter",
+      "courseDescription": "If you're a designer, there's a high chance you've experienced burnout in your practice. You've probably also had to design while burnt out, which is not an easy task. So, what causes burnout? In this course, we will answer that question and reclaim the joy in our design practices.",
+      "projectBriefsUrl": "https://www.figma.com/slides/IVSw6Rjl1Jx1NshUFzlIvr/Project-Briefs---Special-Topics---winter-2026?node-id=1-228&t=AomxrwXocr4Q3ogv-1",
+      "pageUrl": "../../courses/special-topics.html"
+    },
+    {
+      "id": "thesis2",
+      "program": "ixd",
+      "fullCourseName": "Interaction Design Thesis 2",
+      "shortCourseName": "IxD Thesis 2",
+      "navigationName": "Thesis 2",
+      "courseCode": "DESN47646",
+      "term": "winter",
+      "courseDescription": "In this course, Students work through a full project cycle to develop a responsible interactive design project informed through research and critical assessment. They apply knowledge and skills of human-centered design, Information and visual design and computational media to produce a final individual capstone project.",
+      "projectBriefsUrl": "https://example.com/briefs",
+      "pageUrl": "../../courses/thesis-2.html"
+    },
+    {
+      "id": "behaviours",
+      "program": "ixd",
+      "fullCourseName": "Interaction Design Behaviours",
+      "shortCourseName": "IxD Behaviours",
+      "navigationName": "Behaviours",
+      "courseCode": "DESN18654",
+      "term": "winter",
+      "courseDescription": "Students apply the fundamental principles of interaction design to organize and structure content for a range of interactive experiences. They use the visual strategies of Information Architecture and investigate how users read screen-based content and develop techniques for making content appropriate for interactive operations.",
+      "projectBriefsUrl": "https://www.figma.com/slides/BKyrW2PAaTCqxBh7nOuhwh/Project-Briefs---IxD-Behaviours---Winter-2026?node-id=1-182&t=15AYyTY8bLuNHCZg-1",
+      "pageUrl": "../../courses/behaviours.html"
+    }
+  ]
+}

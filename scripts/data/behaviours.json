@@ -1,0 +1,42 @@
+{
+    "courseId": "behaviours",
+    "weeks": [
+        {
+            "weekNumber": 3,
+            "date": "Jan 21",
+            "overview": "This week we’re looking at all kinds of graphs and digging into some more advanced vibe coding: debugging!",
+            "figmaEmbed": "https://www.figma.com/slides/g1dJA68Il24TVk9gK7HFnG/---wk03---IxD-Behaviours---Winter-2026?node-id=9-114&t=4kQGLUsm4FbBZzcF-1",
+            "links": [
+              {
+                "title": "PLACEHOLDER FOR VIDEO (fixed after we record demo in class)",
+                "url": "https://sample.com"
+              }
+            ]
+          },
+      {
+        "weekNumber": 2,
+        "date": "Jan 14",
+        "overview": "This week we'll go over some more info about cognitive load, how to manage/design for it, and continue to build our vibe coding skills.",
+        "figmaEmbed": "https://www.figma.com/slides/OcbyMXo89PrZ7qx2O3YycD/---wk02---IxD-Behaviours---Winter-2026--Copy-?node-id=9-114&t=j5G4QQ0frTx93u8M-1",
+        "links": [
+          {
+            "title": "Sheridan Dashboard",
+            "url": "https://assets.super.so/a37c2459-cafb-4bb9-aa84-0f2883d3301c/images/93ef8ed4-b994-4deb-9dd8-a22b4fe1afe1/sheridan-dashboard.png"
+          }
+        ]
+      },
+      {
+        "weekNumber": 1,
+        "date": "Jan 7",
+        "overview": "This week we’ll go over the introduction to the course, take a look at the first project, get to know each other, and begin working on your first project.",
+        "figmaEmbed": "https://www.figma.com/slides/hvmpoEWumhml95UQG1JGqX/---wk01---IxD-Behaviours---Winter-2026?node-id=9-114&t=o0H8tW2ECIblxTSO-1",
+        "links": [
+          {
+            "title": "Getting to know you survey",
+            "url": "https://forms.microsoft.com/pages/responsepage.aspx?id=V8daRjEhEUe5o9gni1wLFKui-daY0aNDvVADxuH_0nNUOUI2RjVENEEwS0paOThQMDNDTDNYWkFWUS4u&route=shorturl"
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,33 @@
+{
+  "courseId": "specialTopics",
+  "weeks": [
+    {
+      "weekNumber": 2,
+      "date": "Jan 15",
+      "overview": "We’ll learn about the “Monitor”, discuss decision making strategies, play a simple game, and share some ideas for the types of creative play we might try in Project 1.",
+      "figmaEmbed": "https://www.figma.com/slides/8b7cWIxXQkUtYA0Qo94FWw/H2DWYB0---wk02---winter-2026?node-id=4007-278&t=vYt9lP0QystvIEbI-1",
+      "links": [
+        {
+          "title": "Schedule activity template",
+          "url": "https://www.figma.com/design/VxdBok3y2p4qXeLpQri4wJ/Schedule-Activity?node-id=0-1&t=HpO10OgTLTmrZpGj-1"
+        }
+      ]
+    },
+    {
+      "weekNumber": 1,
+      "date": "Jan 9",
+      "overview": "This week we’ll go over the introduction to the course, take a look at the briefs, get to know each other, and begin to learn about the relationship between play, burnout, and creativity.",
+      "figmaEmbed": "https://www.figma.com/slides/tW8fRkxbkELwkkIjT9AXqN/H2DWYB0---wk01---winter-2026?node-id=4198-69&t=2uqiKKN5CkQTA4z2-1",
+      "links": [
+        {
+          "title": "Creative play reflection worksheet",
+          "url": "https://www.figma.com/slides/kXOJBrjlhFkgFGPO88XFd0/P1%3A-Creative-Play-Reflection-Worksheets?node-id=4001-298&t=ej5wd46ooseUW7D5-1"
+        },
+        {
+          "title": "Getting to know you survey",
+          "url": "https://forms.microsoft.com/pages/responsepage.aspx?id=V8daRjEhEUe5o9gni1wLFKui-daY0aNDvVADxuH_0nNUOUI2RjVENEEwS0paOThQMDNDTDNYWkFWUS4u&route=shorturl"
+        }
+      ]
+    }
+  ]
+}
