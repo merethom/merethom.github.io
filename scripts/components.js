@@ -184,7 +184,7 @@ class SiteNav extends HTMLElement {
     <small>Menu</small>
     <nav>
         <ul>
-            <!-- <li><a href="#">Home</a></li> -->
+            <li><a href="/index.html">Home</a></li>
             <li>
               <details>
                 <summary>Classes</summary>
