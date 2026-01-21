@@ -186,7 +186,7 @@ class SiteNav extends HTMLElement {
         <ul>
             <li><a href="/index.html">Home</a></li>
             <li>
-              <details>
+              <details id="nav-classes">
                 <summary>Classes</summary>
                 <ul>
                   ${courseLinks}
@@ -194,7 +194,7 @@ class SiteNav extends HTMLElement {
               </details>
           </li>
           <li>
-            <details>
+            <details id="nav-about">
             <summary>About</summary>
               <ul>
                 <li><a href="https://outlook.office365.com/owa/calendar/MeredithThompson@sheridanc.onmicrosoft.com/bookings/" target="_blank">Office Hours</a></li>
@@ -205,6 +205,19 @@ class SiteNav extends HTMLElement {
         </ul>
       </nav>
     `;
+    
+    // Restore details state from localStorage
+    this.querySelectorAll('details').forEach(details => {
+      const isOpen = localStorage.getItem(details.id) === 'true';
+      if (isOpen) {
+        details.setAttribute('open', '');
+      }
+      
+      // Save state when toggled
+      details.addEventListener('toggle', () => {
+        localStorage.setItem(details.id, details.open);
+      });
+    });
   }
 }
 customElements.define('site-nav', SiteNav);
