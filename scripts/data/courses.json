@@ -23,7 +23,7 @@
       "term": "winter",
       "courseDescription": "In this course, Students work through a full project cycle to develop a responsible interactive design project informed through research and critical assessment. They apply knowledge and skills of human-centered design, Information and visual design and computational media to produce a final individual capstone project.",
       "projectBriefsUrl": "https://www.figma.com/slides/OjUBrR0R1Q5Iceh6QvBr6R/Thesis-2---Project-Briefs---winter-2026?node-id=1-208&t=puIru3qvGoLtw8OS-1",
-      "pageUrl": "/courses/thesis-2.html"
+      "pageUrl": "/courses/thesis2.html"
     },
     {
       "id": "behaviours",
@@ -36,6 +36,30 @@
       "courseDescription": "Students apply the fundamental principles of interaction design to organize and structure content for a range of interactive experiences. They use the visual strategies of Information Architecture and investigate how users read screen-based content and develop techniques for making content appropriate for interactive operations.",
       "projectBriefsUrl": "https://www.figma.com/slides/BKyrW2PAaTCqxBh7nOuhwh/Project-Briefs---IxD-Behaviours---Winter-2026?node-id=1-182&t=15AYyTY8bLuNHCZg-1",
       "pageUrl": "/courses/behaviours.html"
+    },
+    {
+      "id": "methods",
+      "program": "ixd",
+      "fullCourseName": "Interaction Design Methods",
+      "shortCourseName": "IxD Methods",
+      "navigationName": "Methods",
+      "courseCode": "DESN19428",
+      "term": "fall",
+      "courseDescription": "This course lays the essential foundation your designn skills .  Through exercises and projects, students investigate the application of behavioural psychology, UX psychology, usability methodologies, hierarchy and visual design principles to the fundamentals of human computer interaction.",
+      "projectBriefsUrl": "https://www.figma.com/slides/jSE0X79EggOgQH7edUaiKj/IxD-Methods-Briefs---Fall-2025?node-id=0-1&t=9CjTr1UtY5n68pZO-1",
+      "pageUrl": "/courses/methods.html"
+    },
+    {
+      "id": "thesis1",
+      "program": "ixd",
+      "fullCourseName": "Interaction Design Thesis 1",
+      "shortCourseName": "IxD Thesis 1",
+      "navigationName": "Thesis 1",
+      "courseCode": "DESN46146",
+      "term": "fall",
+      "courseDescription": "This course draws on design methodologies, processes and skills acquired in previous courses as students produce an independent interaction design research project under the supervision of a faculty member to fulfill emerging consumer needs.",
+      "projectBriefsUrl": "https://www.figma.com/slides/ycFqFCJYZZZkCGaH6Xsqd5/Thesis-1-Project-Briefs?node-id=3032-1330&t=PZi7NvH9G77v49ZN-1",
+      "pageUrl": "/courses/thesis1.html"
     }
   ]
 }

@@ -1,0 +1,196 @@
+{
+  "courseId": "methods",
+  "weeks": [
+    {
+      "weekNumber": 14,
+      "date": "Dec 12",
+      "overview": "There is no in person class this week! It's just virtual Project 3 presentations. Please join this teams call at the time of your presentation time slot: Meeting ID: 246 491 945 020 4 | Passcode: gg3Bb2rp",
+      "links": [
+        {
+          "title": "Join the meeting now",
+          "url": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_YWQwNWYyNjUtYTQ3Yi00MzY0LTg3N2EtYWFlZjE1NzhhYzI4%40thread.v2/0?context=%7b%22Tid%22%3a%22465ac757-2131-4711-b9a3-d8278b5c0b14%22%2c%22Oid%22%3a%22d6f9a2ab-d198-43a3-bd50-03c6e1ffd273%22%7d"
+        }
+      ]
+    },
+    {
+      "weekNumber": 13,
+      "date": "Dec 5",
+      "overview": "This week we're doing a workshop to finish building our sites!",
+      "figmaEmbed": "https://www.figma.com/slides/P7UCf8kFD08m8jw4sVNTZN/wk13---IxD-Methods---Fall-2025?node-id=143-234&t=CKX8OHi3usm7YRMV-1",
+      "links": [
+        {
+          "title": "Step by step guide for building your website",
+          "url": "https://www.notion.so/Step-by-step-guide-for-building-your-website-2b00f70a809a80519f35eec7d40b7a81?pvs=21"
+        },
+        {
+          "title": "CSS Cheat Sheet",
+          "url": "https://www.notion.so/CSS-Cheat-Sheet-2b80f70a809a80ed942af00533e75eb2?pvs=21"
+        }
+      ]
+    },
+    {
+      "weekNumber": 12,
+      "date": "Nov 28",
+      "overview": "This week we're doing a workshop to finish building our sites!",
+      "figmaEmbed": "https://www.figma.com/slides/JnItCqDvjVbm8KDf75rHzP/wk12---IxD-Methods---Fall-2025?node-id=143-234&t=Z9J7QS9nJhxyslna-1",
+      "links": [
+        {
+          "title": "Step by step guide for building your website",
+          "url": "https://www.notion.so/Step-by-step-guide-for-building-your-website-2b00f70a809a80519f35eec7d40b7a81?pvs=21"
+        },
+        {
+          "title": "CSS Cheat Sheet",
+          "url": "https://www.notion.so/CSS-Cheat-Sheet-2b80f70a809a80ed942af00533e75eb2?pvs=21"
+        }
+      ]
+    },
+    {
+      "weekNumber": 11,
+      "date": "Nov 21",
+      "overview": "This week we're working on Project 2!",
+      "figmaEmbed": "https://www.figma.com/slides/QsfkdDlsCKTeNHZgIlMCNS/wk11---IxD-Methods---Fall-2025?node-id=143-234&t=OEVF9ynqcdOJWWWU-1"
+    },
+    {
+      "weekNumber": 10,
+      "date": "Nov 14",
+      "overview": "This week we're working on Project 2!",
+      "figmaEmbed": "https://www.figma.com/slides/CawyK9adceJNTA4Gyd2Iis/wk10---IxD-Methods---Fall-2025?node-id=143-234&t=en3okpeeeApH5smf-1"
+    },
+    {
+      "weekNumber": 9,
+      "date": "Nov 7",
+      "overview": "This week we're working on Project 2, talking design for accessibility for inclusion AND building out websites.",
+      "figmaEmbed": "https://www.figma.com/slides/JgSbAGl0YIVCcjDOZSzTOu/wk09---IxD-Methods---Fall-2025?node-id=143-234&t=5Rnp7zbBm9yWfRI5-1",
+      "links": [
+        {
+          "title": "Download template (v2)",
+          "url": "/resources/methods/the-template_v2.zip"
+        },
+        {
+          "title": "Loom video tutorial",
+          "url": "https://www.loom.com/share/c600a853df56481babdd48d4ddd47ff7"
+        },
+        {
+          "title": "Tango guide: Create a GitHub Repository",
+          "url": "https://app.tango.us/app/embed/Create-a-GitHub-Repository-and-Codespace-for-your-club-website-4a8f7b0e842b4a3ba23afe996dfc9fb4"
+        }
+      ]
+    },
+    {
+      "weekNumber": 8,
+      "date": "Oct 31",
+      "overview": "This week we're working on Project 2.",
+      "figmaEmbed": "https://www.figma.com/slides/Kcvu9RDi4HmlebqjETfglL/wk08---IxD-Methods---Fall-2025?node-id=143-234&t=9uPg3A5HgiuldMj9-1",
+      "links": [
+        {
+          "title": "Download template",
+          "url": "/resources/methods/the-template.zip"
+        }
+      ]
+    },
+    {
+      "weekNumber": 7,
+      "date": "Oct 16",
+      "overview": "This week we're working on Project 2.",
+      "figmaEmbed": "https://www.figma.com/slides/y3cwcvVZQOiTRwaL5Up9bC/wk07---IxD-Methods---Fall-2025?node-id=10002-61&t=1exl2wlT8mAyMy6C-1",
+      "links": [
+        {
+          "title": "Download template",
+          "url": "/resources/methods/the-template.zip"
+        }
+      ]
+    },
+    {
+      "weekNumber": 6,
+      "date": "Oct 10",
+      "overview": "This week we're handing in P1b.",
+      "figmaEmbed": "https://www.figma.com/slides/9IYwgqoGYVwHNGykcrl2Is/wk06---IxD-Methods---Fall-2025?node-id=6006-174&t=Inwncc5OMlQsc57s-1",
+      "links": [
+        {
+          "title": "Download template",
+          "url": "/resources/methods/the-template.zip"
+        },
+        {
+          "title": "Wireframe Activity (Figma)",
+          "url": "https://www.figma.com/design/LqJsu9xAR8eJtBeAKsGcbU/Wireframe-Activity?node-id=4001-807&t=Q8JDRpCAD9mP3kAK-1"
+        }
+      ]
+    },
+    {
+      "weekNumber": 5,
+      "date": "Oct 3",
+      "overview": "This week we're working on P1b.",
+      "figmaEmbed": "https://www.figma.com/slides/sbAoJA3WWqkHhISf2RjAva/wk05---IxD-Methods---Fall-2025?node-id=6006-174&t=itUQMmtUrbPV9ZKC-1",
+      "links": [
+        {
+          "title": "Download template",
+          "url": "/resources/methods/the-template_v1.zip"
+        },
+        {
+          "title": "The Template (Figma)",
+          "url": "https://www.figma.com/design/ALksIvzCtHrQ1GX3rmjftM/The-Template?node-id=0-1&t=oT6Nf5jJm2QVoKNV-1"
+        }
+      ]
+    },
+    {
+      "weekNumber": 4,
+      "date": "Sept 26",
+      "overview": "This week we're working on P1b.",
+      "figmaEmbed": "https://www.figma.com/slides/XyF3pk7AhN4fMBfBa47UEg/wk04---IxD-Methods---Fall-2025?node-id=143-234&t=AQlUp1wUTA9iHix7-1",
+      "links": [
+        {
+          "title": "Download slide fonts",
+          "url": "/resources/methods/slide-fonts.zip"
+        },
+        {
+          "title": "Sample page content",
+          "url": "https://holy-camera-7e4.notion.site/Sample-page-content-27a0f70a809a801f8caef398472f0515"
+        }
+      ]
+    },
+    {
+      "weekNumber": 3,
+      "date": "Sept 18",
+      "overview": "This week we're preparing our P1a hand in.",
+      "figmaEmbed": "https://www.figma.com/slides/XHN7mirSDmK7W3Qbd6R7zH/Methods-Week-03---Fall-2025?node-id=1-1227&t=zQc3RLugkDxCPHuX-1",
+      "links": [
+        {
+          "title": "Download demo files",
+          "url": "/resources/methods/wk2-demo.zip"
+        },
+        {
+          "title": "Project 1A Example Hand In",
+          "url": "https://www.figma.com/slides/EbhLb4g7z7TZU0q9P8tEAQ/Project-1A-Example-Hand-In?node-id=10-728&t=LwtGA9rVYjAweqBg-1"
+        },
+        {
+          "title": "IxD Bingo",
+          "url": "https://ixd.sheridancollege.ca/bingo/"
+        }
+      ]
+    },
+    {
+      "weekNumber": 2,
+      "date": "Sept 12",
+      "overview": "This week we're building on the foundations from last week.",
+      "figmaEmbed": "https://www.figma.com/slides/XlFMGwZlYGLH5Yx8uBa24W/Methods-Week-02---Fall-2025?node-id=3002-673&t=gAUAmXteYbhxVwED-1",
+      "links": [
+        {
+          "title": "Getting to know you survey",
+          "url": "https://forms.microsoft.com/r/nUFYWa3u2h"
+        }
+      ]
+    },
+    {
+      "weekNumber": 1,
+      "date": "Sept 5",
+      "overview": "This week we'll go over the introduction to the course, take a look at the briefs, get to know each other, and begin working on your first project.",
+      "figmaEmbed": "https://www.figma.com/slides/cLIfTgiCNmlP0MAmxrNteH/IxD-Methods-Week-01?node-id=4002-480&t=tC5LJ6r9lsbcTRkR-1",
+      "links": [
+        {
+          "title": "Getting to know you survey",
+          "url": "https://forms.microsoft.com/r/nUFYWa3u2h"
+        }
+      ]
+    }
+  ]
+}

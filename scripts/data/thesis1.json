@@ -1,0 +1,178 @@
+{
+  "courseId": "thesis1",
+  "weeks": [
+    {
+      "weekNumber": 13,
+      "date": "Dec 3",
+      "overview": "I'm sick and will not be able to meet with you in person this week. I'll be hosting an online meeting from 10am - 3pm instead. We will be going over instructions for the Sprint 2 report and presentation at the beginning of the meeting and then moving into Group B's progress meeting #4. See the Teams link below for more details on how to get your weekly methods sheets signed and 1:1 meeting signups.",
+      "figmaEmbed": "https://www.figma.com/slides/GrSUuFte3Ns487K1VEEgak/wk13---IxD-Thesis-1---Fall-2025?node-id=10001-245&t=OWRbEwu1AGAtlo2p-1",
+      "links": [
+        {
+          "title": "Join the online meeting",
+          "url": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZWE0ZjczYjUtMzcwYi00MmUyLWI2NDMtMDNiMjljNTIzOTVj%40thread.v2/0?context=%7b%22Tid%22%3a%22465ac757-2131-4711-b9a3-d8278b5c0b14%22%2c%22Oid%22%3a%22d6f9a2ab-d198-43a3-bd50-03c6e1ffd273%22%7d"
+        },
+        {
+          "title": "Upload your weekly methods sheet",
+          "url": "https://forms.cloud.microsoft/r/y8ynmMD5zD"
+        }
+      ]
+    },
+    {
+      "weekNumber": 12,
+      "date": "Nov 24-28",
+      "overview": "Reminder: group B's progress meeting 4 takes place today.",
+      "figmaEmbed": "https://www.figma.com/slides/JbAS771m4fubiHzSOkmFqW/wk12---IxD-Thesis-1---Fall-2025?node-id=10001-245&t=Ylwp4IDeMBBRDp23-1"
+    },
+    {
+      "weekNumber": 11,
+      "date": "Nov 17-21",
+      "overview": "This week we're going over design for safety and group A's progress meeting #3.",
+      "figmaEmbed": "https://www.figma.com/slides/riS389pIGytOh6rKHSmITg/wk11---IxD-Thesis-1---Fall-2025?node-id=10001-245&t=zK9Ew00zZlXZhxEG-1",
+      "links": [
+        {
+          "title": "Design for Safety (ebook)",
+          "url": "/resources/thesis1/Design_for_Safety.epub.zip"
+        }
+      ]
+    },
+    {
+      "weekNumber": 10,
+      "date": "Nov 10-14",
+      "overview": "This week we're going over how to choose testing methods and group b's progress meeting #3.",
+      "figmaEmbed": "https://www.figma.com/slides/PsWrN5R2RpykUzhDTDxEhb/wk10---IxD-Thesis-1---Fall-2025?node-id=10001-245&t=xYoSmCs9ozqvOA6p-1",
+      "links": [
+        {
+          "title": "User Research Methods (PDF)",
+          "url": "/resources/thesis1/User_Research_Methods_Letter-compressed.pdf"
+        }
+      ]
+    },
+    {
+      "weekNumber": 9,
+      "date": "Nov 3-7",
+      "overview": "Class will begin at 9:30 this week. This week (depending on the amount of time each meeting takes) we will be going over detailed report feedback in class during 1:1s.",
+      "figmaEmbed": "https://www.figma.com/slides/Gavq6jC3rAceiftNuHdRoF/wk09---IxD-Thesis-1---Fall-2025?node-id=19001-407&t=tC09YzlA9MXqT6GK-1"
+    },
+    {
+      "weekNumber": 8,
+      "date": "Oct 27-31",
+      "overview": "This week/next week (depending on the amount of time each meeting takes) we will be going over detailed report feedback in class during 1:1s.",
+      "figmaEmbed": "https://www.figma.com/slides/zQfa8nE9NmfhND0jbmI8LI/wk08---IxD-Thesis-1---Fall-2025?node-id=10001-150&t=BmcCMv8gPjZQtJRr-1"
+    },
+    {
+      "weekNumber": 7,
+      "date": "Oct 15",
+      "overview": "Sprint 1 presentations today! Our presentations will begin promptly at 10:00am. If you arrive after 10:00am, please wait outside and send me a message on Teams. Each person will get 5 minutes to present. Presentations will be timed, and you will be given a warning when your time is up.",
+      "links": [
+        {
+          "title": "Upload your presentation link",
+          "url": "https://forms.cloud.microsoft/r/KqJfknDpFE"
+        }
+      ]
+    },
+    {
+      "weekNumber": 6,
+      "date": "Oct 6-10",
+      "overview": "This week we're working on generating design principles and preparing for Sprint 1 presentations.",
+      "figmaEmbed": "https://www.figma.com/slides/4PfZP5KPUNX7tKlZCgVKVU/wk06---IxD-Thesis-1---Fall-2025?node-id=16001-141&t=vjU6850BQraRO3Zp-1",
+      "links": [
+        {
+          "title": "Week 6 in-class method",
+          "url": "https://www.figma.com/board/oPARaD9IUzFHPr3we6hA9r/Design-Principles-Generation---Week-6--In-Class-Method?node-id=0-1&t=GOtKJgCL2Z5Y7jlB-1"
+        }
+      ]
+    },
+    {
+      "weekNumber": 5,
+      "date": "Sept 29 - Oct 3",
+      "overview": "This week we're working on user journey maps.",
+      "figmaEmbed": "https://www.figma.com/slides/3c4VhtadCGoHT6C6Vsrawi/wk05---IxD-Thesis-1---Fall-2025?node-id=12001-161&t=JSM258QDb5it8n3B-1",
+      "links": [
+        {
+          "title": "Week 5 in-class method",
+          "url": "https://www.figma.com/board/n7Zxxu6HfcQAMzCNibdFt9/User-journey-maps---Week-5--In-Class-Method?node-id=0-1&t=8Fbzx62Wjj57NDei-1"
+        }
+      ]
+    },
+    {
+      "weekNumber": 4,
+      "date": "Sept 22-26",
+      "overview": "This week we're working on empathy maps.",
+      "figmaEmbed": "https://www.figma.com/slides/c86RCfV7NnjrS8MuoQPeHO/wk04---IxD-Thesis-1---Fall-2025?node-id=12001-161&t=01fQ8whn2hGb21FC-1",
+      "links": [
+        {
+          "title": "Week 4 in-class method",
+          "url": "https://www.figma.com/board/5Ob84vZQYhazMZmIHZCBwu/Empathy-maps---Week-4--In-Class-Method?node-id=0-1&t=zaBhsJGgF17YFJlS-1"
+        }
+      ]
+    },
+    {
+      "weekNumber": 3,
+      "date": "Sept 15-19",
+      "overview": "This week we're working on using social posts as a primary source for research.",
+      "figmaEmbed": "https://www.figma.com/slides/C83B0alsN1cixKE6BTITBd/wk03---IxD-Thesis-1---Fall-2025?node-id=10001-150&t=rSzSI7h5qjxPuqNs-1",
+      "links": [
+        {
+          "title": "Week 3 in-class method",
+          "url": "https://www.figma.com/board/uh9sXL4u8DXNRnOvknHeWO/Using-social-posts-as-a-primary-source---Week-3--In-Class-Method?node-id=0-1&t=gwoweL2lVGe0maGm-1"
+        },
+        {
+          "title": "Sqr-One Toolkit (PDF)",
+          "url": "/resources/thesis1/Sqr-One_Toolkit.pdf"
+        }
+      ]
+    },
+    {
+      "weekNumber": 2,
+      "date": "Sept 8-12",
+      "overview": "This week we're working on identifying, acknowledging, and challenging assumptions, plus competitive analysis.",
+      "figmaEmbed": "https://www.figma.com/slides/m0hoe5y5Ny6xjBA0r6B4to/wk02---IxD-Thesis-1---Fall-2025?node-id=6026-195&t=RIXCxhPTvD4poUaT-1",
+      "links": [
+        {
+          "title": "Week 2 in-class method",
+          "url": "https://www.figma.com/board/RH94YMNyyuRl2akpSpOY8J/Identify--acknowledge--challenge---Week-2-In-Class-Method?node-id=0-1&t=Cf3HicJvUneb4xMg-1"
+        },
+        {
+          "title": "Week 2 take home method",
+          "url": "https://www.figma.com/board/j10zUEHNMiKQ82ZHexwZ3X/Competitive-analysis---Week-2-Take-home-method?node-id=0-1&t=YYiRyVmMbnDVeJT5-1"
+        },
+        {
+          "title": "SREB form to fill in",
+          "url": "https://sheridancollege.na2.documents.adobe.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhBinPCpyUBsKAghhq_XiXAuEn441BHHg0Dnty_6QgL8BHh7w2BLebm8ofKDmHNVxBs*"
+        },
+        {
+          "title": "Consent Document Template (Figma)",
+          "url": "https://www.figma.com/design/VuQRXNjjI5VZPSD7vsKfPM/Consent-Documents-Template?node-id=0-1&p=f"
+        }
+      ]
+    },
+    {
+      "weekNumber": 1,
+      "date": "Sept 1-5",
+      "overview": "This week we'll go over the introduction to the course, take a look at the briefs, get to know each other, and begin working on your first project.",
+      "figmaEmbed": "https://www.figma.com/slides/1YAVaYnyr2X5qSuLVcyymu/wk01---IxD-Thesis-1---Fall-2025?node-id=16-280&t=ucNS0rQUVgTSAXAt-1",
+      "links": [
+        {
+          "title": "Getting to know you survey",
+          "url": "https://forms.microsoft.com/pages/responsepage.aspx?id=V8daRjEhEUe5o9gni1wLFKui-daY0aNDvVADxuH_0nNUOUI2RjVENEEwS0paOThQMDNDTDNYWkFWUS4u&route=shorturl"
+        },
+        {
+          "title": "Week 1 in-class method",
+          "url": "https://www.figma.com/board/VVI5M4xitbTol7pbA7i46q/Generating-and-Assessing-Areas-for-Design-Intervention---Week-1-In-Class-Method--Copy-?node-id=0-1"
+        },
+        {
+          "title": "Week 1 take home method",
+          "url": "https://www.figma.com/board/LazJve9NQb0yECbVyNYPJq/Scope-and-research-planning-%2F-Week-1-Take-Home-Method?node-id=0-1&t=UIP7fd8cCBPhRRHe-1"
+        },
+        {
+          "title": "SREB form to fill in",
+          "url": "https://sheridancollege.na2.documents.adobe.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhBinPCpyUBsKAghhq_XiXAuEn441BHHg0Dnty_6QgL8BHh7w2BLebm8ofKDmHNVxBs*"
+        },
+        {
+          "title": "Consent Document Template (Figma)",
+          "url": "https://www.figma.com/design/VuQRXNjjI5VZPSD7vsKfPM/Consent-Documents-Template?node-id=0-1&p=f"
+        }
+      ]
+    }
+  ]
+}
