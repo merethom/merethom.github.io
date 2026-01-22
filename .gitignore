@@ -1,0 +1,12 @@
+# Local development documentation (not pushed to GitHub)
+SITE-DOCUMENTATION.md
+
+# macOS
+.DS_Store
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
