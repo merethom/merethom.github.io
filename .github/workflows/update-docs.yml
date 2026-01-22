@@ -1,0 +1,56 @@
+name: Update Documentation
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'SITE-DOCUMENTATION.md'
+      - '.github/workflows/update-docs.yml'
+  workflow_dispatch:
+
+jobs:
+  update-docs:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      
+      - name: Run documentation update script
+        run: python scripts/update-docs.py
+      
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if git diff --quiet SITE-DOCUMENTATION.md; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+      
+      - name: Commit and push if changed
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add SITE-DOCUMENTATION.md
+          git commit -m "docs: Auto-update documentation [skip ci]"
+          git push
+      
+      - name: Summary
+        run: |
+          if [ "${{ steps.check_changes.outputs.changed }}" == "true" ]; then
+            echo "✅ Documentation updated and committed"
+          else
+            echo "ℹ️ No documentation changes needed"
+          fi

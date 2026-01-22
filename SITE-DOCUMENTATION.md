@@ -22,28 +22,27 @@ This is a static teaching site built with vanilla HTML, CSS, and JavaScript usin
 
 ```
 teaching-site/
-├── index.html                  # Homepage
-├── 404.html                    # Custom error page
-├── deadlines.html              # Deadline policy page
-├── courses/                    # Individual course pages
-│   ├── special-topics.html
+├── index.html                # Homepage
+├── 404.html                  # Custom error page
+├── deadlines.html            # Deadline policy page
+├── courses/                  # Individual course pages
 │   ├── behaviours.html
-│   └── thesis-2.html
-├── css/
+│   ├── special-topics.html
+├── css/                      # All site styles
 │   └── design.css              # All site styles
-├── scripts/
+├── scripts/                  # All Web Components + utilities
 │   ├── components.js           # All Web Components + utilities
 │   └── data/
-│       ├── courses.json        # Course metadata
-│       ├── special-topics.json # Course weekly content
-│       ├── behaviours.json     # Course weekly content
 │       └── COURSE-CONTENT-SCHEMA.md  # JSON schema docs
-├── img/
+│       ├── behaviours.json           # Course weekly content
+│       ├── courses.json              # Course metadata
+│       ├── special-topics.json       # Course weekly content
+├── img/                      # Images and icons
 │   ├── favicon.ico
-│   ├── star.svg
 │   ├── rainbow-flag.svg
-│   └── t-flag.svg
-└── .nojekyll                   # Disables Jekyll on GitHub Pages
+│   ├── star.svg
+│   ├── t-flag.svg
+├── .nojekyll                 # Disables Jekyll on GitHub Pages
 ```
 
 ---
@@ -54,8 +53,10 @@ All components are defined in `scripts/components.js`. The site uses vanilla Jav
 
 ### Available Components
 
+### Available Components
+
 #### 1. `<site-header>`
-**Location**: Lines ~45-100 in components.js
+**Location**: Lines ~87 in components.js
 **Purpose**: Displays course heading, description, and project briefs link
 **Usage**: 
 ```html
@@ -66,22 +67,13 @@ All components are defined in `scripts/components.js`. The site uses vanilla Jav
 **Key Fields**: `courseHeading`, `courseDescription`, `projectBriefsUrl`
 
 #### 2. `<site-footer>`
-**Location**: Lines ~102-135 in components.js
+**Location**: Lines ~153 in components.js
 **Purpose**: Static footer with contact info, flags, and pixel stars
 **Usage**: `<site-footer></site-footer>`
 **Accessibility**: Uses `role="contentinfo"` and `aria-hidden="true"` for decorative elements
 
-#### 3. `<course-info>`
-**Location**: Lines ~234-285 in components.js
-**Purpose**: Displays course metadata (code, name, term, year)
-**Usage**: `<course-info course-id="specialTopics"></course-info>`
-**Data Source**: `scripts/data/courses.json`
-**Features**: 
-- Program mapping (ixd → "Interaction Design")
-- Dynamic year display
-
-#### 4. `<site-nav>`
-**Location**: Lines ~161-223 in components.js
+#### 3. `<site-nav>`
+**Location**: Lines ~175 in components.js
 **Purpose**: Main navigation with expandable sections
 **Usage**: `<site-nav></site-nav>`
 **Features**:
@@ -90,8 +82,17 @@ All components are defined in `scripts/components.js`. The site uses vanilla Jav
 - Expandable "Classes" and "About" sections using `<details>`
 **localStorage Keys**: `nav-classes`, `nav-about`
 
+#### 4. `<course-info>`
+**Location**: Lines ~261 in components.js
+**Purpose**: Displays course metadata (code, name, term, year)
+**Usage**: `<course-info course-id="specialTopics"></course-info>`
+**Data Source**: `scripts/data/courses.json`
+**Features**: 
+- Program mapping (ixd → "Interaction Design")
+- Dynamic year display
+
 #### 5. `<course-weekly-content>`
-**Location**: Lines ~327-425 in components.js
+**Location**: Lines ~317 in components.js
 **Purpose**: Displays weekly lecture content with Figma embeds and links
 **Usage**: `<course-weekly-content course-id="specialTopics"></course-weekly-content>`
 **Data Source**: `scripts/data/{course-id}.json` (converted to kebab-case)
@@ -102,10 +103,9 @@ All components are defined in `scripts/components.js`. The site uses vanilla Jav
 - Path-aware (works in subdirectories)
 
 #### 6. `<current-year>`
-**Location**: Lines ~137-145 in components.js
+**Location**: Lines ~440 in components.js
 **Purpose**: Displays current year dynamically
 **Usage**: `<current-year></current-year>`
-
 ---
 
 ## JSON Data Structure
