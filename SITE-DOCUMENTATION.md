@@ -25,7 +25,10 @@ teaching-site/
 ├── deadlines.html            # Deadline policy page
 ├── courses/                  # Individual course pages
 │   ├── behaviours.html
+│   ├── methods.html
 │   ├── special-topics.html
+│   ├── thesis1.html
+│   ├── thesis2.html
 ├── css/                      # All site styles
 │   └── design.css              # All site styles
 ├── scripts/                  # All Web Components + utilities
@@ -34,8 +37,10 @@ teaching-site/
 │       └── COURSE-CONTENT-SCHEMA.md  # JSON schema docs
 │       ├── behaviours.json           # Course weekly content
 │       ├── courses.json              # Course metadata
+│       ├── methods.json              # Course weekly content
 │       ├── special-topics.json       # Course weekly content
-│       ├── thesis.json               # Course weekly content
+│       ├── thesis1.json              # Course weekly content
+│       ├── thesis2.json              # Course weekly content
 ├── img/                      # Images and icons
 │   ├── favicon.ico
 │   ├── rainbow-flag.svg
