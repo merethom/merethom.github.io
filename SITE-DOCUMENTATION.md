@@ -1,7 +1,5 @@
 # Teaching Site - Technical Documentation
 
-**Note**: This file is git-ignored and stays local for development reference.
-
 ## Overview
 
 This is a static teaching site built with vanilla HTML, CSS, and JavaScript using Web Components for reusability. The site is hosted on GitHub Pages at `merethom.github.io`.
