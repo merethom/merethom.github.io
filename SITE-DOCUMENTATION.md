@@ -35,6 +35,7 @@ teaching-site/
 │       ├── behaviours.json           # Course weekly content
 │       ├── courses.json              # Course metadata
 │       ├── special-topics.json       # Course weekly content
+│       ├── thesis.json               # Course weekly content
 ├── img/                      # Images and icons
 │   ├── favicon.ico
 │   ├── rainbow-flag.svg
