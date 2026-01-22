@@ -1,19 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
 
 :root {
-    --dark-mode-bg: #0E0E10;
-    --text-color: #ded9e8;
-    --outline-color: #57446C;
-    --nav-bg: #181818;
-    --nav-header-bg: #312847;
-    --nav-border: #575262;
-    --nav-item-border: #312847;
-    --nav-text: #ded9e8;
-    --bright-purple: #786c96;
-    --nav-header-text: #ffffff;
+  --dark-mode-bg: #0E0E10;
+  --text-color: #DFDFE2;
+  --outline-color: #4D4D60;
+  --nav-border: #575262;
+  --nav-text: #ded9e8;
+  --mid-mid-grey: #4D4D60;
+  --white: #ffffff;
+  --mid-grey: #4D4D60;
+  --mid-dark: #181818;
 
-    --border-width: 2px;
-    }
+  /* Rainbow gradient colors */
+  --rainbow-red: #CC3935;
+  --rainbow-orange: #F5971C;
+  --rainbow-yellow: #FCD722;
+  --rainbow-green: #14E47D;
+  --rainbow-blue: #1D8BFD;
+  --rainbow-purple: #776EDC;
+  
+  --border-width: 2px;
+    
+}
 
 
   h1, h2, h3, h4, h5, h6 {
@@ -76,14 +84,14 @@
     border: solid var(--border-width) var(--outline-color);
     padding: 10px 15px;
     border-radius: 4px;
-    background: var(--nav-bg);
+    background: var(--mid-dark);
     transition: all 0.3s ease;
     display: inline-block;
   }
 
   site-header a.briefs-link:hover {
-    background: var(--bright-purple);
-    border-color: var(--bright-purple);
+    background: var(--mid-mid-grey);
+    border-color: var(--mid-mid-grey);
     color: #ffffff;
   }
 
@@ -127,7 +135,7 @@
   .rainbow-text {
     /* Fallback color for browsers that don't support gradient text */
     color: var(--text-color);
-    background: linear-gradient(45deg, #CC3935 5%, #F5971C 23%, #FCD722 41%, #14E47D 59%, #1D8BFD 77%, #776EDC 95%);
+    background: linear-gradient(45deg, var(--rainbow-red) 5%, var(--rainbow-orange) 23%, var(--rainbow-yellow) 41%, var(--rainbow-green) 59%, var(--rainbow-blue) 77%, var(--rainbow-purple) 95%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -170,9 +178,9 @@
   /* Navigation Styles */
   site-nav {
     display: block;
-    background: var(--nav-bg);
+    background: var(--mid-dark);
     padding: 20px 20px 25px;
-    border: var(--border-width) solid var(--nav-item-border);
+    border: var(--border-width) solid var(--nav-border);
     border-radius: 2px;
     grid-row: span 2;
   }
@@ -184,11 +192,10 @@
 
   site-nav > small {
     display: block;
-    background: var(--nav-header-bg);
-    border-bottom: var(--border-width) solid var(--nav-border);
+    background: var(--mid-grey);
     padding: 6px 12px 8px;
     border-radius: 2px 2px 0 0;
-    color: var(--nav-header-text);
+    color: var(--white);
     font-family: "Silkscreen", sans-serif;
     font-size: 12px;
   }
@@ -200,7 +207,7 @@
   }
 
   site-nav nav > ul > li {
-    border-bottom: var(--border-width) solid var(--nav-item-border);
+    border-bottom: var(--border-width) solid var(--nav-border);
     padding: 12px 0;
   }
 
@@ -217,7 +224,7 @@
 
   site-nav nav > ul > li > a::before {
     content: ">";
-    color: var(--bright-purple);
+    color: var(--mid-mid-grey);
     width: 12px;
     text-align: center;
   }
@@ -244,7 +251,7 @@
 
   site-nav summary::before {
     content: "+";
-    color: var(--bright-purple);
+    color: var(--mid-mid-grey);
     width: 12px;
     text-align: center;
   }
@@ -278,22 +285,22 @@
     font-family: "findreplace", sans-serif;
     font-style: normal;
     font-size: 18px;
-    color: var(--bright-purple);
+    color: var(--mid-mid-grey);
     width: 12px;
     margin-right: 7px;
   }
 
   /* Active state for navigation items */
   site-nav nav > ul > li > a.active {
-    color: var(--bright-purple);
+    color: var(--mid-mid-grey);
   }
 
   site-nav summary.active {
-    color: var(--bright-purple);
+    color: var(--mid-mid-grey);
   }
 
   site-nav details ul li a.active {
-    color: var(--bright-purple);
+    color: var(--mid-mid-grey);
   }
 
   /* Course Weekly Content Styles */
@@ -310,12 +317,12 @@
 
   .course-content h2 {
     font-size: 1.5rem;
-    color: var(--bright-purple);
+    color: var(--white);
   }
 
   .week-item {
-    background: var(--nav-bg);
-    border: var(--border-width) solid var(--nav-item-border);
+    background: var(--mid-dark);
+    border: var(--border-width) solid var(--nav-border);
     padding: 0;
     border-radius: 2px;
   }
@@ -340,7 +347,7 @@
   .week-item summary::before {
     content: "▼";
     font-size: 12px;
-    color: var(--bright-purple);
+    color: var(--mid-mid-grey);
     transition: transform 0.2s ease;
   }
 
@@ -360,7 +367,8 @@
     font-weight: 900;
     font-size: 16px;
     margin: 0 0 12px 0;
-    color: var(--bright-purple);
+    color: var(-mid-grey);
+    color: #9090A7;
   }
 
   .week-overview p {

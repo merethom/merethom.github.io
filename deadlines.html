@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>merethom's teaching site</title>
+    <link rel="stylesheet" href="https://use.typekit.net/yrl7rjf.css">
+    <link rel="stylesheet" href="css/design.css">
+    
+    <!-- Web Components -->
+    <script src="scripts/components.js"></script>
+</head>
+
+<style>
+
+    h1 {
+        margin-bottom: 20px;
+    }
+
+
+    h2 {
+        color: var(--white);
+    }
+
+    h3 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }        
+
+    hr { 
+        margin: 50px 0 60px;
+        border: none;
+        border-top: 2px solid var(--nav-border);
+    }
+
+    li::marker {
+        color: var(--nav-border);
+    }
+
+    section ul,p,li {
+        font-family: "attribute-mono", sans-serif;
+        font-size: 16px;
+        line-height: 1.55;
+        margin-top: 0;
+        padding-right: 20px;
+    }
+
+    section li {
+        margin-bottom: 10px;
+    }
+
+    section ul:not(.week-item ul) {
+        padding-inline-start: 15px;
+    }
+
+    .week-item {
+        margin-bottom: 20px;
+    }
+
+    .week-item summary.red, .red {
+        color: var(--rainbow-red);
+    }
+
+    .week-item summary.green, .green {
+        color: var(--rainbow-green);
+    }
+
+    .week-item summary.yellow, .yellow {
+        color: var(--rainbow-yellow);
+    }
+
+</style>
+<body>
+  
+  <main>
+      <h1 class="rainbow-text">My deadline policy</h1>
+      
+      <p>Sheridan IxD is a professional program designed to prepare you for a specific career. As such, my late work policy mirrors the professional behaviors an employer would expect and simulates workplace consequences—where late penalties don't exist.</p>
+
+      <p>TL;DR: I offer incentives for timely submissions rather than penalties for late work. This approach better mirrors professional workplace practices, providing you with valuable career experience.</p>
+
+      <hr>
+      
+      <section>
+        <h2>What is the relationship between deadlines and work in a job?</h2>
+       <div>
+            <h3 class="green">You always finish your task before the due date</h3>
+            <p>This is an ideal situation as it allows you and your boss/client to collaborate, provide feedback, and make necessary adjustments before the final release.</p>
+       </div>
+        <div>
+            <h3 class="yellow">You finish your task after the due date</h3>
+            <p>This is a common situation where you may have to work late or over the weekend to meet the deadline. This can be stressful and may lead to burnout.</p>
+        </div>
+        <div>
+            <h3 class="red">You don't never finish your task before the due date</h3>
+            <p>This is the worst situation as it will likely result in a poor quality of work and a negative review from your boss/client.</p>
+       </div>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>How the policy works</h2>
+        <p>Each project has a due week and a cutoff date. While some smaller assignments may differ, the following guidelines generally apply to large projects:</p>
+        <details class="week-item" open>
+            <summary class="green">If you hand in a project during the due week:</summary>
+            <ul>
+                <li>It will be graded and returned to you quickly (within about ~5 business days)</li>
+                <li>You will receive detailed feedback on your work</li>
+                <li>You can resubmit portions of the assignment that received a "Does not meet requirements" on the rubric (I will provide details in the feedback)</li>
+                <li>A project must be at least 50% complete to be handed in during the due week</li>
+            </ul>
+            
+        </details>
+        <details class="week-item" open>
+            <summary class="yellow">If you hand in a project after the due week but before the cutoff date:</summary>
+            <ul>
+                <li>It must be submitted to a different dropbox on SLATE</li>
+                <li>It will be graded either during reading week or at the end of the term (depending on the cutoff date)</li>
+                <li>You will receive a grade and a completed rubric</li>
+                <li>You cannot resubmit any portion of the project</li>
+            </ul>
+        </details>
+        <details class="week-item" open>
+            <summary class="red">If you do not submit your work by the cutoff date:</summary>
+            <ul>
+                <li>You will receive a grade of 0 on the project</li>
+            </ul>
+        </details>
+        </div>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>What this policy doesn't apply to</h2>
+        <p>Some projects have firm due dates where this policy doesn't apply. In these cases the standard department policy would apply. Examples include (and are not limited to):</p>
+        <ul>
+            <li>In-class presentations</li>
+            <li>Progress meetings</li>
+            <li>Graded critiques</li>
+            <li>Graded in-class activities</li>
+            <li>Weekly design methods</li>
+            <li>Exit interviews</li>
+        </ul>
+    </section>
+    <hr>
+    <section>
+        <h2>What if I have an accommodation/crisis/health issue/etc. ?</h2>
+        <p>Just as in a job setting, you're expected to notify me promptly about any situation that may affect your work. This allows us to collaborate on creating a custom work plan tailored to your specific needs and circumstances. However, if you fail to notify me in a timely manner (for example, emailing me in the last week of class without having submitted any prior work), the aforementioned policy will remain in effect.</p>
+    </section>
+
+</main>
+
+  <site-nav></site-nav>
+ 
+  <site-footer></site-footer>
+
+</body>
+</html>
