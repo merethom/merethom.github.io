@@ -2,6 +2,26 @@
   "courseId": "specialTopics",
   "weeks": [
     {
+      "weekNumber": 3,
+      "date": "Jan 23",
+      "overview": "We’ll learn about the “Monitor”, discuss decision making strategies, play a simple game, and share some ideas for the types of creative play we might try in Project 1.",
+      "figmaEmbed": "https://www.figma.com/slides/T16KTudmRJOv7pkWFrFDbf/H2DWYB0---wk03---winter-2026?node-id=4007-278&t=07bfinFYxxgZwgo6-1",
+      "links": [
+        {
+          "title": "Monitor Pleasing Goal (side a)",
+          "url": "/resources/special-topics/monitor-pleasing-goal-side-a.pdf"
+        },
+        {
+          "title": "Monitor Pleasing Goal (side b)",
+          "url": "/resources/special-topics/monitor-pleasing-goal-side-b.pdf"
+        },
+        {
+          "title":"When to quit worksheet",
+          "url": "/resources/special-topics/decision-grid.pdf"
+        }
+      ]
+    },
+    {
       "weekNumber": 2,
       "date": "Jan 15",
       "overview": "We’ll learn about the “Monitor”, discuss decision making strategies, play a simple game, and share some ideas for the types of creative play we might try in Project 1.",
