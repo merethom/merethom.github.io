@@ -25,11 +25,25 @@ async function setPageTitle() {
   }
 }
 
+// Dynamic Favicon Setup
+// Automatically adds favicon to every page
+function setFavicon() {
+  const link = document.createElement('link');
+  link.rel = 'icon';
+  link.type = 'image/x-icon';
+  link.href = '/img/favicon.ico';
+  document.head.appendChild(link);
+}
+
 // Run on page load
 if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', setPageTitle);
+  document.addEventListener('DOMContentLoaded', () => {
+    setPageTitle();
+    setFavicon();
+  });
 } else {
   setPageTitle();
+  setFavicon();
 }
 
 async function getCourses() {
