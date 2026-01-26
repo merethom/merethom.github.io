@@ -1,0 +1,70 @@
+/* Navigation Styles */
+
+site-nav {
+    grid-row: span 2;
+    font-family: 'Fira Code', monospace;
+    font-weight: 400;
+    font-size: 1rem;
+    text-transform: lowercase;
+}
+
+site-nav h5 {
+    font-size: 1rem;
+    margin-top: 4rem;
+}
+
+site-nav h5::after {
+    content: "⤵ ";
+    font-size: 1.25rem;
+    font-weight: 800;
+    display: inline-block;
+    transform: rotate(5deg) translateY(10px);
+    margin-left: 12px;
+}
+
+site-nav a {
+    text-decoration: underline;
+    text-decoration-color: var(--pop);
+    text-underline-offset: 2px;
+    text-decoration-thickness: 2px;
+    text-decoration-skip-ink: auto;
+    text-decoration-color: var(--pop);
+    color: var(--nav-text);
+    transition: all 300ms ease-in-out;
+    padding: 2px 3px;
+    border-radius: 1px;
+    letter-spacing: 0.5px;
+    text-transform: lowercase;
+    cursor: crosshair;
+    position: relative;
+}
+
+site-nav a:hover {
+    background: var(--pop);
+    color: var(--dark-mode-bg);
+    box-shadow: 4px 4px 0 var(--nav-text);
+}
+
+site-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+site-nav li {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+site-nav li::before {
+    content: "↳ ";
+    color: var(--mid-mid-grey);
+    font-family: "findreplace", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin-right: 5px;
+}
+
+site-nav a.active {
+    text-decoration: none;
+}

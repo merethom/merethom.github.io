@@ -1,74 +1,60 @@
 {
     "courseId": "thesis2",
-    "weeks": [
-      {
-        "weekNumber": 4,
-        "date": "Jan 26",
-        "overview": "This week we continue P2 and do a vibe code demo.",
-        "figmaEmbed": "https://www.figma.com/slides/OUYPR59b5zpWtgvuR6c3Qd/wk04---IxD-Thesis-2---Winter-2026?node-id=2-662&t=haLGHBWsNDwfdc4o-1",
-        "links": [
-          {
-            "title": "GitHub 101 Slides",
-            "url": "/resources/thesis2/github101.pdf"
-          },
-          {
-            "title": "Figma file for vibe code demo",
-            "url": "https://www.figma.com/design/dc4vKNtuX3kxl9EumefYvW/color-changer?node-id=0-1&t=KE7B3G2sxk4AqfFz-1"
-          }
-        ]
-      },
+    "weeks": [{
+            "weekNumber": 4,
+            "date": "Jan 26 // campus is closed",
+            "overview": "Sheridan is closed on Monday, January 26, due to the winter storm. In-person classes are cancelled. If you need to chat with me about your project, you can sign up for a 1:1 meeting at the link below.",
+            "links": [{
+                "title": "1:1 Signups",
+                "url": "https://www.figma.com/board/L4m94bhL19OrMruwA5QYd9/1-1-Signups?node-id=1-2&t=m5B3s7EpY2WK7euz-1"
+            }]
+        },
         {
             "weekNumber": 3,
             "date": "Jan 19",
             "overview": "This week we’ll complete our next mini lecture on AI and continue working on P2.",
             "figmaEmbed": "https://www.figma.com/slides/k1dWtzl6QEN5plrOzpwO9r/wk03---IxD-Thesis-2---winter-2026?t=v6RRqSTZt3AIJwVf-6",
-            "links": [
+            "links": [{
+                "title": "SREB Student Researcher Form",
+                "url": "https://sheridancollege.na2.documents.adobe.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhBinPCpyUBsKAghhq_XiXAuEn441BHHg0Dnty_6QgL8BHh7w2BLebm8ofKDmHNVxBs*"
+            }]
+        },
+        {
+            "weekNumber": 2,
+            "date": "Jan 12",
+            "overview": "This week we’ll complete our first mini lecture on AI and check in on your P1 progress.",
+            "figmaEmbed": "https://www.figma.com/slides/bzkgiO3Q91xKdtiBcdG4jm/wk02---IxD-Thesis-2---winter-2026?t=v6RRqSTZt3AIJwVf-6",
+            "links": [{
+                "title": "SREB Student Researcher Form",
+                "url": "https://sheridancollege.na2.documents.adobe.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhBinPCpyUBsKAghhq_XiXAuEn441BHHg0Dnty_6QgL8BHh7w2BLebm8ofKDmHNVxBs*"
+            }]
+        },
+        {
+            "weekNumber": 1,
+            "date": "Jan 5",
+            "overview": "This week we’ll go over the introduction to the course, take a look at the first project, get to know each other, and begin working on your design proposal.",
+            "figmaEmbed": "https://www.figma.com/slides/20CNSM0yXUNjT5kIuqtLTC/wk01---IxD-Thesis-2---winter-2026?t=v6RRqSTZt3AIJwVf-6",
+            "links": [{
+                    "title": "Getting to know you survey",
+                    "url": "https://forms.microsoft.com/r/nUFYWa3u2h"
+                },
                 {
                     "title": "SREB Student Researcher Form",
                     "url": "https://sheridancollege.na2.documents.adobe.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhBinPCpyUBsKAghhq_XiXAuEn441BHHg0Dnty_6QgL8BHh7w2BLebm8ofKDmHNVxBs*"
+                },
+                {
+                    "title": "Consent Document Template (figma)",
+                    "url": "https://www.figma.com/design/VuQRXNjjI5VZPSD7vsKfPM/Consent-Documents-Template?node-id=0-1&t=MoKM7Myz1UYqKwfo-1"
+                },
+                {
+                    "title": "Risk Management Slides",
+                    "url": "https://assets.super.so/a37c2459-cafb-4bb9-aa84-0f2883d3301c/files/7bb4717e-7516-4a84-83fb-f7e2dd0914fb/risk-management.pptx"
+                },
+                {
+                    "title": "Project Management Examples (Figjam)",
+                    "url": "https://www.figma.com/board/oIgBt1KXNHAITYoghu88pT/Untitled?node-id=1-1058&t=GRii078DTgUpfYwH-1"
                 }
             ]
-          },
-      {
-        "weekNumber": 2,
-        "date": "Jan 12",
-        "overview": "This week we’ll complete our first mini lecture on AI and check in on your P1 progress.",
-        "figmaEmbed": "https://www.figma.com/slides/bzkgiO3Q91xKdtiBcdG4jm/wk02---IxD-Thesis-2---winter-2026?t=v6RRqSTZt3AIJwVf-6",
-        "links": [
-            {
-                "title": "SREB Student Researcher Form",
-                "url": "https://sheridancollege.na2.documents.adobe.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhBinPCpyUBsKAghhq_XiXAuEn441BHHg0Dnty_6QgL8BHh7w2BLebm8ofKDmHNVxBs*"
-            }
-        ]
-      },
-      {
-        "weekNumber": 1,
-        "date": "Jan 5",
-        "overview": "This week we’ll go over the introduction to the course, take a look at the first project, get to know each other, and begin working on your design proposal.",
-        "figmaEmbed": "https://www.figma.com/slides/20CNSM0yXUNjT5kIuqtLTC/wk01---IxD-Thesis-2---winter-2026?t=v6RRqSTZt3AIJwVf-6",
-        "links": [
-          {
-            "title": "Getting to know you survey",
-            "url": "https://forms.microsoft.com/r/nUFYWa3u2h"
-          },
-          {
-            "title": "SREB Student Researcher Form",
-            "url": "https://sheridancollege.na2.documents.adobe.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhBinPCpyUBsKAghhq_XiXAuEn441BHHg0Dnty_6QgL8BHh7w2BLebm8ofKDmHNVxBs*"
-          },
-          {
-            "title": "Consent Document Template (figma)",
-            "url": "https://www.figma.com/design/VuQRXNjjI5VZPSD7vsKfPM/Consent-Documents-Template?node-id=0-1&t=MoKM7Myz1UYqKwfo-1"
-          },
-          {
-            "title": "Risk Management Slides",
-            "url": "https://assets.super.so/a37c2459-cafb-4bb9-aa84-0f2883d3301c/files/7bb4717e-7516-4a84-83fb-f7e2dd0914fb/risk-management.pptx"
-          },
-          {
-            "title": "Project Management Examples (Figjam)",
-            "url": "https://www.figma.com/board/oIgBt1KXNHAITYoghu88pT/Untitled?node-id=1-1058&t=GRii078DTgUpfYwH-1"
-          }
-        ]
-      }
+        }
     ]
-  }
-  
+}

@@ -1,0 +1,62 @@
+nav.sitemap ul {
+    padding-inline-start: 0;
+}
+
+nav.sitemap li {
+    list-style-type: none;
+}
+
+nav.sitemap li.dom ul {
+    padding-inline-start: 40px;
+}
+
+nav.sitemap li.dom::before {
+    content: "> ";
+    margin-right: 5px;
+    color: var(--mid-grey);
+    font-family: "findreplace", sans-serif;
+    font-size: 1.5rem;
+}
+
+nav.sitemap li.sub {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+nav.sitemap li.sub::before {
+    content: "↳ ";
+    margin-right: 5px;
+    color:  var(--mid-grey);
+    font-family: "findreplace", sans-serif;
+    font-size: 1.25rem;
+}
+
+nav.sitemap ul a {
+    /* Fallback for browsers that don't support gradient underlines */
+    text-decoration: underline;
+    text-decoration-color: var(--pop);
+    text-underline-offset: 2px;
+    text-decoration-thickness: 2px;
+    text-decoration-skip-ink: auto;
+    font-family: 'Fira Code', monospace;
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--nav-text);
+    transition: all 300ms ease-in-out;
+    padding: 2px 3px;
+    border-radius: 1px;
+    letter-spacing: 0.5px;
+    text-transform: lowercase;
+    cursor: crosshair;
+    position: relative;
+}
+
+nav.sitemap li a:hover {
+    background: var(--pop);
+    color: var(--dark-mode-bg);
+    box-shadow: 4px 4px 0 var(--nav-text);
+}
+
+nav.sitemap li a.active {
+    text-decoration: none;
+}
