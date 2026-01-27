@@ -1,0 +1,105 @@
+ :root {
+     --gridz: 100px;
+ }
+
+ * {
+     box-sizing: border-box;
+ }
+
+ body {
+     width: 1002px;
+     margin-top: 4rem;
+     grid-template-rows: auto auto;
+ }
+
+ .gridz {
+     display: grid;
+     grid-template-columns: repeat(10, var(--gridz));
+     grid-template-rows: repeat(8, var(--gridz));
+     grid-area: none;
+     border: solid 1px var(--text-color);
+     grid-column: span 2;
+     grid-row: 1 / 2;
+ }
+
+ .gridz div {
+     border: solid 1px var(--text-color);
+     height: 100%;
+     width: 100%;
+ }
+
+ .gridz h1 {
+     margin-top: 0;
+     color: var(--pop);
+     font-size: 2rem;
+ }
+
+ .gridz h1::before {
+     content: "++ ";
+     color: var(--nav-text);
+ }
+
+ .gridz h5:first-of-type {
+     margin-top: 0;
+ }
+
+ .gridz #navigation {
+     grid-column: 1 / 4;
+     grid-row: 1 / 7;
+     width: 100%;
+     height: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .gridz #content {
+     grid-column: 5 / 10;
+     grid-row: 2 / 8;
+     width: 100%;
+     height: 100%;
+     padding: 3rem;
+     overflow-x: wrap;
+ }
+
+ footer {
+     display: flex;
+     justify-content: center;
+     margin-top: 2rem;
+     margin-left: auto;
+     margin-right: auto;
+     width: 100%;
+ }
+
+ footer p {
+     text-align: center;
+     margin: 0;
+ }
+
+ @media (max-width: 900px) {
+
+     :root {
+         --gridz: 80px;
+     }
+
+     body {
+         width: 100%;
+         height: auto;
+     }
+
+     .gridz {
+         grid-template-columns: repeat(5, var(--gridz));
+         grid-template-rows: repeat(20, var(--gridz));
+         margin: 0 auto;
+     }
+
+     .gridz #navigation {
+         grid-column: 1 / 6;
+         grid-row: 12 / 20;
+     }
+
+     .gridz #content {
+         grid-column: 1 / 6;
+         grid-row: 2 / 11;
+     }
+ }

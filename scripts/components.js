@@ -153,12 +153,9 @@ customElements.define('site-header', SiteHeader);
 class SiteFooter extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
-      <footer role="contentinfo">
-        &copy; <current-year></current-year> merethom
-        <i class="pixel-star" aria-hidden="true"></i>
-        <img src="/img/rainbow-flag.svg" alt="pixel art of a rainbow flag">
-        <img src="/img/t-flag.svg" alt="pixel art of the trans pride flag">
-      </footer>
+    <footer>
+        <p>&copy; merethom // coded by me and hosted on <a href="https://github.io/">github</a> // <a href="#">sitemap</a> // <a href="#">colophon</a></p>
+    </footer>
     `;
     }
 }

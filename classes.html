@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>classes</title>
+    <link rel="stylesheet" href="https://use.typekit.net/yrl7rjf.css">
+    <link rel="stylesheet" href="css/design.css">
+
+    <!-- Web Components -->
+    <script src="scripts/components.js"></script>
+
+    <style>
+        body {
+            grid-template-areas:
+                "main"
+                "site-footer";
+            grid-template-columns: 1fr;
+            max-width: 400px;
+            grid-gap: 10rem;
+        }
+
+        main {
+            grid-area: "main";
+        }
+
+
+        h1 {
+            margin-top: 0;
+            margin-bottom: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main>
+        <h1>classes</h1>
+        <nav class="sitemap">
+            <ul>
+                <li class="dom"><a href="/" class="active">home</a>
+                    <ul id="coursesList">
+                        <!-- Course links will be injected here by JavaScript -->
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+    </main>
+    <site-footer></site-footer>
+
+</body>
+
+<script>
+    // Populate courses list dynamically
+    async function populateCoursesNav() {
+        const coursesList = document.getElementById('coursesList');
+        if (!coursesList) return;
+
+        try {
+            const data = await getCourses();
+            if (!data || !data.courses) return;
+
+            // Clear existing content
+            coursesList.innerHTML = '';
+
+            // Create list items for each course
+            data.courses.forEach(course => {
+                const li = document.createElement('li');
+                li.className = 'sub';
+                const a = document.createElement('a');
+                a.href = course.pageUrl;
+                a.textContent = course.navigationName;
+                li.appendChild(a);
+                coursesList.appendChild(li);
+            });
+        } catch (error) {
+            console.error('Failed to populate courses navigation:', error);
+        }
+    }
+
+    // Run on page load
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', populateCoursesNav);
+    } else {
+        populateCoursesNav();
+    }
+</script>
+
+
+
+</html>
