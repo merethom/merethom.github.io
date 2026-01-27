@@ -5,34 +5,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>merethom's teaching site</title>
+    <link rel="stylesheet" href="https://use.typekit.net/yrl7rjf.css">
     <link rel="stylesheet" href="css/design.css">
+    <link rel="stylesheet" href="css/gridz.css">
 
     <!-- Web Components -->
     <script src="scripts/components.js"></script>
+
 </head>
-
-<style>
-
-
-
-</style>
 
 <body>
 
-    <main>
-        <site-header></site-header>
-        <p>
-            Welcome to my teaching site! Here you'll find course information, weekly lecture slides, project briefs, and resources for all my current classes. Use the navigation menu to explore each course and access the materials you need.
-        </p>
-        <p>
-            P.S. The visual design of this site is a nod to the internet of the early 2000s.
-        </p>
-    </main>
+    <section class="gridz">
 
-    <site-nav></site-nav>
+        <div id="navigation">
+            <site-nav></site-nav>
+        </div>
 
+        <div id="content">
+            <h1>welcome to my teaching resources site</h1>
+            <p>Here you'll find course information, weekly lecture slides, project briefs, and resources for all my current classes. Use the navigation menu to explore each course and access the materials you need.</p>
+            <p>This site is for students currently enrolled in one of my classes. So if you're not a Sheridan design student, it probably won't make a lot of sense.</p>
+            <p>P.S. The visual design of this site is inspired by the <a href="https://thoughts.melonking.net/guides/introduction-to-the-web-revival-1-what-is-the-web-revival">small web revival</a> trend with nods to 90s and 00s web design.</p>
+        </div>
+
+    </section>
 
     <site-footer></site-footer>
+
+    <script>
+        function fillGridWithBlanks() {
+            const gridz = document.querySelector('.gridz');
+            const gridStyle = getComputedStyle(gridz);
+
+            // Figure out how many columns and rows in the grid
+            const columns = gridStyle.gridTemplateColumns.split(' ').length;
+            const rows = gridStyle.gridTemplateRows.split(' ').length;
+            const totalCells = columns * rows;
+
+            // Get rid of blank divs that are already there
+            const blankDivs = gridz.querySelectorAll('div:not([id])');
+            blankDivs.forEach(div => div.remove());
+
+            let cellsUsed = 0;
+
+            // Figure out where IDs are currently located
+            const positionedElements = gridz.querySelectorAll('[id]');
+            positionedElements.forEach(element => {
+                const elementStyle = getComputedStyle(element);
+                const gridColumn = elementStyle.gridColumn; // e.g., "1 / 4"
+                const gridRow = elementStyle.gridRow; // e.g., "1 / 7"
+
+                // Calculate grid positions
+                const colParts = gridColumn.split('/').map(s => parseInt(s.trim()));
+                const rowParts = gridRow.split('/').map(s => parseInt(s.trim()));
+
+                const colSpan = colParts[1] - colParts[0];
+                const rowSpan = rowParts[1] - rowParts[0];
+
+                cellsUsed += colSpan * rowSpan;
+            });
+
+            // How many blank cells are actually needed?
+            const blanksNeeded = totalCells - cellsUsed;
+
+            // Add the gridz!
+            for (let i = 0; i < blanksNeeded; i++) {
+                const blankDiv = document.createElement('div');
+                gridz.appendChild(blankDiv);
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', fillGridWithBlanks); // Run gridz
+        window.addEventListener('resize', fillGridWithBlanks); // Adjust on resize
+    </script>
 
 </body>
 
