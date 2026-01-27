@@ -42,6 +42,7 @@ teaching-site/
 │       ├── thesis1.json              # Course weekly content
 │       ├── thesis2.json              # Course weekly content
 ├── img/                      # Images and icons
+│   ├── badges
 │   ├── favicon.ico
 │   ├── rainbow-flag.svg
 │   ├── star.svg
@@ -77,7 +78,7 @@ All components are defined in `scripts/components.js`. The site uses vanilla Jav
 **Accessibility**: Uses `role="contentinfo"` and `aria-hidden="true"` for decorative elements
 
 #### 3. `<site-nav>`
-**Location**: Lines ~175 in components.js
+**Location**: Lines ~172 in components.js
 **Purpose**: Main navigation with expandable sections
 **Usage**: `<site-nav></site-nav>`
 **Features**:
@@ -87,7 +88,7 @@ All components are defined in `scripts/components.js`. The site uses vanilla Jav
 **localStorage Keys**: `nav-classes`, `nav-about`
 
 #### 4. `<course-info>`
-**Location**: Lines ~252 in components.js
+**Location**: Lines ~249 in components.js
 **Purpose**: Displays course metadata (code, name, term, year)
 **Usage**: `<course-info course-id="specialTopics"></course-info>`
 **Data Source**: `scripts/data/courses.json`
@@ -96,7 +97,7 @@ All components are defined in `scripts/components.js`. The site uses vanilla Jav
 - Dynamic year display
 
 #### 5. `<course-weekly-content>`
-**Location**: Lines ~308 in components.js
+**Location**: Lines ~305 in components.js
 **Purpose**: Displays weekly lecture content with Figma embeds and links
 **Usage**: `<course-weekly-content course-id="specialTopics"></course-weekly-content>`
 **Data Source**: `scripts/data/{course-id}.json` (converted to kebab-case)
@@ -107,7 +108,7 @@ All components are defined in `scripts/components.js`. The site uses vanilla Jav
 - Path-aware (works in subdirectories)
 
 #### 6. `<current-year>`
-**Location**: Lines ~431 in components.js
+**Location**: Lines ~428 in components.js
 **Purpose**: Displays current year dynamically
 **Usage**: `<current-year></current-year>`
 ---
