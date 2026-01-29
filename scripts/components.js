@@ -154,7 +154,7 @@ class SiteFooter extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
     <footer>
-        <p>&copy; merethom // coded by me and hosted on <a href="https://github.io/">github</a> // <a href="#">sitemap</a> // <a href="#">colophon</a></p>
+        <p>&copy; merethom // coded by me and hosted on <a href="https://www.cloudflare.com/">cloudflare</a> // <a href="#">sitemap</a> // <a href="#">colophon</a></p>
     </footer>
     `;
     }
