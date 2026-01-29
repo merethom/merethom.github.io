@@ -105,7 +105,7 @@ body {
     grid-template-columns: 1fr 250px;
     grid-template-areas:
         "main site-nav"
-        "site-footer site-nav";
+        "site-footer site-footer";
     gap: 40px;
 }
 
