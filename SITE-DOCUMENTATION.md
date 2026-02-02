@@ -30,7 +30,7 @@ teaching-site/
 │   ├── thesis1.html
 │   ├── thesis2.html
 ├── css/                      # All site styles
-│   └── design.css            # All site styles
+│   └── design.css              # All site styles
 ├── scripts/                  # All Web Components + utilities
 │   ├── components.js           # All Web Components + utilities
 │   └── data/
@@ -72,13 +72,13 @@ All components are defined in `scripts/components.js`. The site uses vanilla Jav
 **Key Fields**: `courseHeading`, `courseDescription`, `projectBriefsUrl`
 
 #### 2. `<site-footer>`
-**Location**: Lines ~153 in components.js
+**Location**: Lines ~152 in components.js
 **Purpose**: Static footer with contact info, flags, and pixel stars
 **Usage**: `<site-footer></site-footer>`
 **Accessibility**: Uses `role="contentinfo"` and `aria-hidden="true"` for decorative elements
 
 #### 3. `<site-nav>`
-**Location**: Lines ~172 in components.js
+**Location**: Lines ~171 in components.js
 **Purpose**: Main navigation with expandable sections
 **Usage**: `<site-nav></site-nav>`
 **Features**:
@@ -88,7 +88,7 @@ All components are defined in `scripts/components.js`. The site uses vanilla Jav
 **localStorage Keys**: `nav-classes`, `nav-about`
 
 #### 4. `<course-info>`
-**Location**: Lines ~249 in components.js
+**Location**: Lines ~248 in components.js
 **Purpose**: Displays course metadata (code, name, term, year)
 **Usage**: `<course-info course-id="specialTopics"></course-info>`
 **Data Source**: `scripts/data/courses.json`
@@ -97,7 +97,7 @@ All components are defined in `scripts/components.js`. The site uses vanilla Jav
 - Dynamic year display
 
 #### 5. `<course-weekly-content>`
-**Location**: Lines ~305 in components.js
+**Location**: Lines ~304 in components.js
 **Purpose**: Displays weekly lecture content with Figma embeds and links
 **Usage**: `<course-weekly-content course-id="specialTopics"></course-weekly-content>`
 **Data Source**: `scripts/data/{course-id}.json` (converted to kebab-case)
@@ -108,7 +108,7 @@ All components are defined in `scripts/components.js`. The site uses vanilla Jav
 - Path-aware (works in subdirectories)
 
 #### 6. `<current-year>`
-**Location**: Lines ~428 in components.js
+**Location**: Lines ~427 in components.js
 **Purpose**: Displays current year dynamically
 **Usage**: `<current-year></current-year>`
 ---
@@ -446,4 +446,4 @@ Modify the rainbow color variables and they'll update everywhere:
 
 For questions or issues with the site architecture, refer to this documentation.
 
-**Last Updated**: January 2026
+**Last Updated**: February 2026
