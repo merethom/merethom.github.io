@@ -9,8 +9,6 @@ test.html
 *.swp
 *.swo
 *~
-*.cursor
-.gitignore
 
 # Python
 __pycache__/

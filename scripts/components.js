@@ -128,20 +128,19 @@ class SiteHeader extends HTMLElement {
 
         // Add project briefs link if available
         const briefsLink = course.projectBriefsUrl ?
-            `<p><a href="${course.projectBriefsUrl}" target="_blank" class="briefs-link">View Project Briefs ></a></p>` :
+            `<p><a href="${course.projectBriefsUrl}" target="_blank" class="briefs-link">View Project Briefs</a></p>` :
             '';
 
         this.innerHTML = `
       <header role="banner">
         <h1 class="rainbow-text">${heading}</h1>
         <p>${course.courseDescription}</p>
-        ${briefsLink}
+        <p>${briefsLink}</p>
       </header>
     `;
     }
 }
 customElements.define('site-header', SiteHeader);
-
 
 
 

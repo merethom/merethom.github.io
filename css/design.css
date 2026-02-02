@@ -26,7 +26,6 @@
     --border-width: 2px;
 
     --pop: var(--rainbow-yellow);
-
 }
 
 
@@ -62,7 +61,7 @@ p a {
     color: var(--text-color);
     text-decoration: underline;
     text-decoration-color: var(--pop);
-    text-underline-offset: 2px;
+    text-underline-offset: 2.5px;
     text-decoration-thickness: 2px;
     text-decoration-skip-ink: auto;
     transition: all 300ms ease-in-out;
@@ -80,19 +79,16 @@ p a:hover {
     box-shadow: 4px 4px 0 var(--nav-text);
 }
 
-p a[href*="://"] {
-    text-decoration-color: var(--rainbow-blue);
-}
-
-p a[href*="://"]:hover {
-    background: var(--rainbow-blue);
-}
-
+/* Adds arrow to external link */
 p a[href*="://"]::after {
-    content: "↗";
+    content: "\2009 ↗";
     line-height: 30.4px;
-    color: var(--mid-grey);
+    color: var(--pop);
     transform: translateY(-20px);
+}
+
+p a[href*="://"]:hover::after {
+    color: var(--dark-mode-bg);
 }
 
 body {
@@ -128,32 +124,6 @@ site-header header p {
     font-size: 16px;
     line-height: 1.55;
     margin: 16px 0;
-}
-
-site-header a.briefs-link {
-    color: var(--text-color);
-    text-decoration: none;
-    font-family: 'Fira Code', monospace;
-    font-weight: 400;
-    font-size: 1rem;
-    border: solid var(--border-width) var(--outline-color);
-    padding: 10px 15px;
-    border-radius: 4px;
-    background: var(--mid-dark);
-    transition: all 0.3s ease;
-    display: inline-block;
-}
-
-site-header a.brief-links::after {
-    content: "↗";
-    color: var(--rainbow-yellow);
-}
-
-
-site-header a.briefs-link:hover {
-    background: var(--mid-mid-grey);
-    border-color: var(--mid-mid-grey);
-    color: #ffffff;
 }
 
 site-header p:has(a.briefs-link) {

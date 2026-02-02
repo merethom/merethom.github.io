@@ -30,7 +30,7 @@ teaching-site/
 │   ├── thesis1.html
 │   ├── thesis2.html
 ├── css/                      # All site styles
-│   └── design.css              # All site styles
+│   └── design.css            # All site styles
 ├── scripts/                  # All Web Components + utilities
 │   ├── components.js           # All Web Components + utilities
 │   └── data/
