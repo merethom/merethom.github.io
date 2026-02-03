@@ -1,10 +1,19 @@
 {
     "courseId": "behaviours",
     "weeks": [{
+            "weekNumber": 5,
+            "date": "Feb 4",
+            "overview": "This week we'll look at adding in some animation and continue working on dashboards.",
+            "figmaEmbed": "https://www.figma.com/slides/e5sYGhYAaiP6TpDoAKMpa4/----wk05---IxD-Behaviours---Winter-2026?node-id=9-114&t=BLbvkLZOgc7LEyH3-1",
+            "links": [{
+                "title": "Sample P1 Hand-in Document",
+                "url": "https://www.figma.com/design/jwbCa0FFPdQHdUW50E9JZt/Dashboard-Demo?node-id=81-651&t=Ked6FvaXcT5D90dj-1"
+            }]
+        }, {
             "weekNumber": 4,
             "date": "Jan 27",
             "overview": "This week we'll look at adding in some animation and continue working on dashboards.",
-            "figmaEmbed": "https://www.figma.com/slides/745MOZTNau43ymO5DGrklk/----wk04---IxD-Behaviours---Winter-2026?node-id=9-114&t=DEzL9KaQgQ5RvU1k-1](https://www.figma.com/slides/745MOZTNau43ymO5DGrklk/----wk04---IxD-Behaviours---Winter-2026?node-id=9-114&t=DEzL9KaQgQ5RvU1k-1",
+            "figmaEmbed": "https://www.figma.com/slides/745MOZTNau43ymO5DGrklk/----wk04---IxD-Behaviours---Winter-2026?node-id=9-114&t=DEzL9KaQgQ5RvU1k-1",
             "links": [{
                 "title": "Vibecode starting point code",
                 "url": "/resources/behaviours/dashboard-demo.zip"
