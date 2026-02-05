@@ -1,6 +1,20 @@
 {
     "courseId": "thesis2",
     "weeks": [{
+            "weekNumber": 6,
+            "date": "Feb 7",
+            "overview": "This week we continue P2 and do a vibe code demo.",
+            "figmaEmbed": "https://www.figma.com/slides/N8sLfHVC3Cintj6VXGfi01/wk06---IxD-Thesis-2---Winter-2026?node-id=2-662&t=Yf3L55SLShKUdmYP-1",
+            "links": [{
+                    "title": "Timetable screen wireframe",
+                    "url": "https://www.figma.com/design/k8VzkPljhFdm0AM4a8wK0z/Thesis-2-Visual-Design-Activity?node-id=0-1&t=6usng0AMqhDRPkkm-1"
+                },
+                {
+                    "title": "Tone and manner samples",
+                    "url": "https://www.figma.com/board/FkzyGICH7kDq9cmRCur35n/Tone-and-Manner-samples?node-id=0-1&t=6DxJT83G5IfyCjqY-1"
+                }
+            ]
+        }, {
             "weekNumber": 5,
             "date": "Feb 2",
             "overview": "This week we continue P2 and do a vibe code demo.",
