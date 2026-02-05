@@ -44,6 +44,7 @@ teaching-site/
 ├── img/                      # Images and icons
 │   ├── badges
 │   ├── favicon.ico
+│   ├── icons
 │   ├── rainbow-flag.svg
 │   ├── star.svg
 │   ├── t-flag.svg
@@ -108,7 +109,7 @@ All components are defined in `scripts/components.js`. The site uses vanilla Jav
 - Path-aware (works in subdirectories)
 
 #### 6. `<current-year>`
-**Location**: Lines ~427 in components.js
+**Location**: Lines ~451 in components.js
 **Purpose**: Displays current year dynamically
 **Usage**: `<current-year></current-year>`
 ---
