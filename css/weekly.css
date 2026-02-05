@@ -5,21 +5,22 @@
 }
 
 .weekly-content {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
     gap: 16px;
 }
 
 .course-content h2 {
     font-size: 1.5rem;
     color: var(--white);
+    text-transform: lowercase;
 }
 
 .week-item {
     background: var(--mid-dark);
     border: var(--border-width) solid var(--nav-border);
     padding: 0;
-    border-radius: 2px;
 }
 
 .week-item summary {
@@ -27,27 +28,36 @@
     font-weight: 900;
     font-size: 20px;
     color: var(--text-color);
-    padding: 16px 20px;
+    padding: 19px 20px 21px;
     cursor: pointer;
     list-style: none;
     display: flex;
     align-items: center;
     gap: 10px;
+    text-transform: lowercase;
 }
 
 .week-item summary::-webkit-details-marker {
     display: none;
 }
 
-.week-item summary::before {
-    content: "▼";
-    font-size: 12px;
-    color: var(--mid-mid-grey);
-    transition: transform 0.2s ease;
+.week-item span {
+    color: var(--pop);
+    letter-spacing: -3px;
+    margin-right: 4px;
 }
 
-.week-item:not([open]) summary::before {
-    transform: rotate(-90deg);
+.week-icon {
+    color: var(--pop);
+    width: auto;
+    height: auto;
+    transition: transform 0.1s ease-in-out;
+    transform-origin: center center;
+    margin-right: 4px;
+}
+
+.week-item:not([open]) .week-icon {
+    transform: rotate(-180deg) translateY(-3px);
 }
 
 .week-content {
@@ -66,12 +76,17 @@
     color: #9090A7;
 }
 
+.week-overview {
+    border-left: solid 2px var(--pop);
+    padding: 2px 0;
+    padding-left: 16px;
+    padding-right: 60px;
+}
+
 .week-overview p {
-    font-family: 'Fira Code', monospace;
-    font-weight: 400;
-    font-size: 16px;
     line-height: 1.55;
     margin: 0;
+    color: var(--white);
 }
 
 .week-lecture {
@@ -82,16 +97,9 @@
     width: 100%;
     aspect-ratio: 16 / 9;
     border: var(--border-width) solid var(--outline-color);
-    border-radius: 4px;
+    border-radius: 2px;
 }
 
-.week-links p {
-    font-family: 'Fira Code', monospace;
-    font-size: 14px;
-    line-height: 1.55;
-    margin: 0 0 12px 0;
-    color: var(--text-color);
-}
 
 .week-links ul {
     list-style: none;
@@ -99,24 +107,59 @@
     margin: 0;
     display: flex;
     flex-direction: column;
-    gap: 4px;
+    gap: 12px;
 }
 
-.week-links li {
-    display: flex;
-    align-items: center;
-    gap: 8px;
+
+.week-links a::before {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background-color: var(--pop);
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    mask-position: center;
+    margin-right: 8px;
+    content: '';
+    transition: opacity 300ms ease-in-out;
+    transition-delay: 50ms;
 }
 
-.week-links li::before {
-    content: "📎";
-    font-size: 14px;
+.week-links a.external::before {
+    mask-image: url("../img/icons/i_external-link.svg");
+}
+
+.week-links a.figma::before {
+    mask-image: url("../img/icons/i_figma.svg");
+}
+
+.week-links a.pdf::before {
+    mask-image: url("../img/icons/i_pdf.svg");
+}
+
+.week-links a.zip::before {
+    mask-image: url("../img/icons/i_zip.svg");
 }
 
 .week-links a {
     color: var(--text-color);
     text-decoration: underline;
     font-family: 'Fira Code', monospace;
-    font-size: 15px;
-    font-style: italic;
+    font-size: 1rem;
+    line-height: 1.55;
+    letter-spacing: 0.5px;
+    text-decoration-color: var(--nav-border);
+    text-underline-offset: 2.5px;
+    text-decoration-thickness: 2px;
+    text-decoration-skip-ink: auto;
+    cursor: crosshair;
+    transition: all 300ms ease-in-out;
+}
+
+.week-links a:hover {
+    text-decoration-color: var(--pop);
+}
+
+.week-links a:hover::before {
+    opacity: 0.66;
 }

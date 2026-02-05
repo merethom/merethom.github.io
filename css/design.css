@@ -99,10 +99,12 @@ body {
     color: var(--text-color);
     display: grid;
     grid-template-columns: 1fr 250px;
+    gird-template-rows: auto 1fr;
     grid-template-areas:
         "main site-nav"
         "site-footer site-footer";
     gap: 40px;
+    min-height: 100vh;
 }
 
 /* Mobile Layout */

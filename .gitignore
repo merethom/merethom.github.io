@@ -1,10 +1,12 @@
 # Local development documentation (not pushed to GitHub)
 test.html
+
 # macOS
 .DS_Store
 
 # Editor directories and files
 .vscode/
+.cursor/
 .idea/
 *.swp
 *.swo

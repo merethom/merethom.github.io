@@ -1,6 +1,11 @@
 {
     "courseId": "specialTopics",
     "weeks": [{
+            "weekNumber": 5,
+            "date": "Feb 6 in room j223",
+            "overview": "This week is our in-class play date in room j223. Our setup will take place from 9-9:15am and then our play activities will run until 11:30. At that point you'll have 30 minutes to complete your in-class reflection about the event.",
+            "figmaEmbed": "https://www.figma.com/slides/egto49Nrfd0qm1CHQpC6nb/H2DWYB0---wk05---winter-2026?node-id=4007-278&t=PSi63ZJBzTT2NUxn-1"
+        }, {
             "weekNumber": 4,
             "date": "Jan 30",
             "overview": "This week we’ll discuss presentations for next class, learn more about Laziness, and get into how Grind Culture harms us all.",

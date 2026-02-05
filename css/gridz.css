@@ -15,7 +15,7 @@
  .gridz {
      display: grid;
      grid-template-columns: repeat(10, var(--gridz));
-     grid-template-rows: repeat(8, var(--gridz));
+     grid-template-rows: auto;
      grid-area: none;
      border: solid 1px var(--text-color);
      grid-column: span 2;

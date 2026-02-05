@@ -358,17 +358,24 @@ class CourseWeeklyContent extends HTMLElement {
         const sortedWeeks = [...contentData.weeks].sort((a, b) => b.weekNumber - a.weekNumber);
 
         // Render weekly content
-        const weeksHtml = sortedWeeks.map(week => {
+        const weeksHtml = sortedWeeks.map((week, index) => {
+            // Helper function to determine link type and class
+            const getLinkClass = (url) => {
+                if (url.includes('figma.com')) return 'figma';
+                if (url.endsWith('.pdf')) return 'pdf';
+                if (url.endsWith('.zip')) return 'zip';
+                return 'external';
+            };
+
             // Render links if present
             let linksHtml = '';
             if (week.links && week.links.length > 0) {
-                const linkItems = week.links.map(link =>
-                    `<li><a href="${link.url}" target="_blank">${link.title}</a></li>`
-                ).join('');
+                const linkItems = week.links.map(link => {
+                    const linkClass = getLinkClass(link.url);
+                    return `<li><a href="${link.url}" target="_blank" class="${linkClass}">${link.title}</a></li>`;
+                }).join('');
                 linksHtml = `
           <div class="week-links">
-            <h4>Links</h4>
-            <p>Here are some direct links for this week's content:</p>
             <ul>
               ${linkItems}
             </ul>
@@ -381,19 +388,23 @@ class CourseWeeklyContent extends HTMLElement {
             if (week.figmaEmbed) {
                 const embedUrl = getFigmaEmbedUrl(week.figmaEmbed);
                 figmaHtml = `
-          <div class="week-lecture">
-            <h4>Lecture</h4>
-            <iframe class="figma-embed" src="${embedUrl}" allowfullscreen></iframe>
-          </div>
+          <div class="week-lecture" data-figma-url="${embedUrl}"></div>
         `;
             }
 
+            // Open the first (most recent) week by default
+            const openAttribute = index === 0 ? 'open' : '';
+
             return `
-        <details class="week-item">
-          <summary>Week ${week.weekNumber} (${week.date})</summary>
+        <details class="week-item" ${openAttribute}>
+          <summary>
+            <svg class="week-icon" width="6" height="4" viewBox="0 0 6 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2 1.82L2 0.179999L2.18 -1.76447e-06L3.82 -1.14426e-06L4 0.179999L4 1.82L3.82 2L2.18 2L2 1.82ZM-4.61101e-07 3.82L1.5911e-07 2.18L0.18 2L1.82 2L2 2.18L2 3.82L1.82 4L0.18 4L-4.61101e-07 3.82ZM4 3.82L4 2.18L4.18 2L5.82 2L6 2.18L6 3.82L5.82 4L4.18 4L4 3.82Z" fill="currentColor"/>
+            </svg>
+            week ${week.weekNumber} <span>//</span> ${week.date}
+          </summary>
           <div class="week-content">
             <div class="week-overview">
-              <h4>Overview</h4>
               <p>${week.overview}</p>
             </div>
             ${figmaHtml}
@@ -413,6 +424,19 @@ class CourseWeeklyContent extends HTMLElement {
         </section>
       </div>
     `;
+
+        // Add event listeners for lazy-loading Figma embeds
+        this.querySelectorAll('.week-item').forEach(weekItem => {
+            weekItem.addEventListener('toggle', () => {
+                if (weekItem.open) {
+                    const figmaDiv = weekItem.querySelector('[data-figma-url]');
+                    if (figmaDiv && !figmaDiv.querySelector('iframe')) {
+                        const embedUrl = figmaDiv.getAttribute('data-figma-url');
+                        figmaDiv.innerHTML = `<iframe class="figma-embed" src="${embedUrl}" allowfullscreen></iframe>`;
+                    }
+                }
+            });
+        });
     }
 }
 customElements.define('course-weekly-content', CourseWeeklyContent);
