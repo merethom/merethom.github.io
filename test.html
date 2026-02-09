@@ -4,15 +4,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>merethom's teaching site</title>
+    <title>merethom's teaching site - Protected</title>
     <link rel="stylesheet" href="https://use.typekit.net/yrl7rjf.css">
     <link rel="stylesheet" href="css/design.css">
     <link rel="stylesheet" href="css/gridz.css">
 
-    <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
-    <script src="scripts/components.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.min.js" integrity="sha384-lp4k1VRKPU9eBnPePjnJ9M2RF3i7PC30gXs70+elCVfgwLwx1tv5+ctxdtwxqZa7" crossorigin="anonymous"></script>
 
     <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: system-ui, -apple-system, sans-serif;
+        }
+
+        #password-container {
+            display: flex;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+        }
+
+        .password-form {
+            background: white;
+            padding: 50px;
+            border-radius: 10px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            max-width: 400px;
+            width: 90%;
+            text-align: center;
+        }
+
+        .password-form h2 {
+            margin-top: 0;
+            margin-bottom: 10px;
+            color: #333;
+            font-size: 28px;
+        }
+
+        .password-form p {
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+
+        .password-form input {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 2px solid #ddd;
+            border-radius: 6px;
+            font-size: 16px;
+            box-sizing: border-box;
+            transition: border-color 0.3s;
+        }
+
+        .password-form input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .password-form button {
+            width: 100%;
+            padding: 12px;
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .password-form button:hover {
+            background: #764ba2;
+        }
+
+        .password-error {
+            color: #e74c3c;
+            font-size: 14px;
+            margin-bottom: 15px;
+            display: none;
+        }
+
+        .password-error.show {
+            display: block;
+        }
+
+        #password-container.hidden {
+            display: none;
+        }
+
         #content h1,
         #content p {
             opacity: 0;
@@ -24,141 +113,210 @@
 
 <body>
 
-    <section class="gridz">
-
-        <div id="navigation">
-            <site-nav></site-nav>
+    <!-- Password Protection Form -->
+    <div id="password-container">
+        <div class="password-form">
+            <h2>Protected Content</h2>
+            <p>This page is password protected. Enter the password to continue.</p>
+            <div class="password-error" id="password-error">Incorrect password. Please try again.</div>
+            <form id="static-pass-form">
+                <input type="password" id="static-pass" placeholder="Enter password" required autofocus>
+                <button type="submit">Access Content</button>
+            </form>
         </div>
+    </div>
 
-        <div id="content">
-            <h1>welcome to my teaching site</h1>
-            <p>Here you'll find course information, weekly lecture slides, project briefs, and resources for all my current classes. Use the navigation menu to explore each course and access the materials you need.</p>
-            <p>This site is for students currently enrolled in one of my classes. So if you're not a Sheridan design student, it probably won't make a lot of sense.</p>
-            <p>P.S. The visual design of this site is inspired by the <a href="https://thoughts.melonking.net/guides/introduction-to-the-web-revival-1-what-is-the-web-revival">small web revival</a> trend with nods to 90s and 00s web design.</p>
-        </div>
+    <!-- Original Page Content (will be shown after authentication) -->
+    <div id="page-content" style="display: none;">
 
-    </section>
+        <section class="gridz">
 
-    <site-footer></site-footer>
+            <div id="navigation">
+                <site-nav></site-nav>
+            </div>
 
-    <!-- <nav class="sitemap">
-        <ul>
-            <li class="dom"><a href="/" class="active">home</a>
-                <ul>
-                    <li class="sub"><a href="#">behaviours</a></li>
-                    <li class="sub"><a href="#">gothic eggs</a>
-                        <ul>
-                            <li class="sub"><a href="#">gothic eggs</a>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-    </nav>
+            <div id="content">
+                <h1>welcome to my teaching site</h1>
+                <p>Here you'll find course information, weekly lecture slides, project briefs, and resources for all my current classes. Use the navigation menu to explore each course and access the materials you need.</p>
+                <p>This site is for students currently enrolled in one of my classes. So if you're not a Sheridan design student, it probably won't make a lot of sense.</p>
+                <p>P.S. The visual design of this site is inspired by the <a href="https://thoughts.melonking.net/guides/introduction-to-the-web-revival-1-what-is-the-web-revival">small web revival</a> trend with nods to 90s and 00s web design.</p>
+            </div>
+        </section>
 
-     -->
+        <site-footer></site-footer>
+    </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+    <script src="scripts/components.js"></script>
 
 
     <script>
-        function fillGridWithBlanks() {
-            const gridz = document.querySelector('.gridz');
-            const gridStyle = getComputedStyle(gridz);
+        // Password protection using CryptoJS AES-256 encryption
+        var keySize = 256;
+        var iterations = 1000;
 
-            // Figure out how many columns and rows in the grid
-            const columns = gridStyle.gridTemplateColumns.split(' ').length;
-            const rows = gridStyle.gridTemplateRows.split(' ').length;
-            const totalCells = columns * rows;
+        function access(protectedText, pass) {
+            var salt = CryptoJS.enc.Hex.parse(protectedText.substr(0, 32));
+            var iv = CryptoJS.enc.Hex.parse(protectedText.substr(32, 32));
+            var protected = protectedText.substring(64);
 
-            // Get rid of blank divs that are already there
-            const blankDivs = gridz.querySelectorAll('div:not([id])');
-            blankDivs.forEach(div => div.remove());
-
-            let cellsUsed = 0;
-
-            // Figure out where IDs are currently located
-            const positionedElements = gridz.querySelectorAll('[id]');
-            positionedElements.forEach(element => {
-                const elementStyle = getComputedStyle(element);
-                const gridColumn = elementStyle.gridColumn; // e.g., "1 / 4"
-                const gridRow = elementStyle.gridRow; // e.g., "1 / 7"
-
-                // Calculate grid positions
-                const colParts = gridColumn.split('/').map(s => parseInt(s.trim()));
-                const rowParts = gridRow.split('/').map(s => parseInt(s.trim()));
-
-                const colSpan = colParts[1] - colParts[0];
-                const rowSpan = rowParts[1] - rowParts[0];
-
-                cellsUsed += colSpan * rowSpan;
+            var key = CryptoJS.PBKDF2(pass, salt, {
+                keySize: keySize / 32,
+                iterations: iterations
             });
 
-            // How many blank cells are actually needed?
-            const blanksNeeded = totalCells - cellsUsed;
-
-            // Add the gridz!
-            for (let i = 0; i < blanksNeeded; i++) {
-                const blankDiv = document.createElement('div');
-                gridz.appendChild(blankDiv);
-            }
+            var decrypted = CryptoJS.AES.decrypt(protected, key, {
+                iv: iv,
+                padding: CryptoJS.pad.Pkcs7,
+                mode: CryptoJS.mode.CBC
+            }).toString(CryptoJS.enc.Utf8);
+            return decrypted;
         }
 
-        document.addEventListener('DOMContentLoaded', fillGridWithBlanks); // Run gridz
-        window.addEventListener('resize', fillGridWithBlanks); // Adjust on resize
-    </script>
+        // IMPORTANT: Replace this with the encrypted content from StatiCrypt
+        // See instructions below on how to generate this
+        var protectedHTML = "ENCRYPTED_CONTENT_PLACEHOLDER";
 
-    <script>
-        // Anime.js animations for content
-        document.addEventListener('DOMContentLoaded', () => {
-            // Get all divs in .gridz and randomize their order
-            const gridDivs = Array.from(document.querySelectorAll('.gridz > div'));
-            const shuffledDivs = gridDivs.sort(() => Math.random() - 0.5);
+        document.getElementById('static-pass-form').addEventListener('submit', function(e) {
+            e.preventDefault();
 
-            // Animate the shuffled divs
-            anime.timeline()
-                .add({
-                    targets: shuffledDivs,
-                    opacity: [0, 1],
-                    duration: 100,
-                    easing: 'easeOutQuad',
-                    delay: anime.stagger(30)
-                }, 0)
-                .add({
-                    targets: '#content h1',
-                    opacity: [0, 1],
-                    translateY: [30, 0],
-                    rotate: [5, 0],
-                    duration: 800,
-                    easing: 'easeOutElastic(1, .75)'
-                }, 0)
-                .add({
-                    targets: '#content p',
-                    opacity: [0, 1],
-                    translateY: [20, 0],
-                    duration: 600,
-                    easing: 'easeOutQuad',
-                    delay: anime.stagger(100)
-                }, 200)
-                .add({
-                    targets: 'site-footer',
-                    opacity: [0, 1],
-                    translateY: [20, 0],
-                    duration: 600,
-                    easing: 'easeOutQuad',
-                    delay: anime.stagger(100)
-                }, 600);
+            var passphrase = document.getElementById('static-pass').value;
+            var protectedHMAC = protectedHTML.substring(0, 64);
+            var protectedContent = protectedHTML.substring(64);
+            var decryptedHMAC = CryptoJS.HmacSHA256(
+                protectedContent,
+                CryptoJS.SHA256(passphrase).toString()
+            ).toString();
+
+            if (decryptedHMAC !== protectedHMAC) {
+                document.getElementById('password-error').classList.add('show');
+                document.getElementById('static-pass').value = '';
+                document.getElementById('static-pass').focus();
+                return;
+            }
+
+            // Store session authentication
+            sessionStorage.setItem('test-page-unlocked', 'true');
+            sessionStorage.setItem('test-page-password', passphrase);
+
+            // Hide password form and show content
+            document.getElementById('password-container').classList.add('hidden');
+            document.getElementById('page-content').style.display = 'block';
+
+            // Load original scripts after auth
+            loadPageScripts();
         });
 
-        const rainbowColorNames = ['red', 'orange', 'yellow', 'green', 'blue', 'purple'];
+        // Check session on page load
+        window.addEventListener('load', function() {
+            if (sessionStorage.getItem('test-page-unlocked') === 'true') {
+                var passphrase = sessionStorage.getItem('test-page-password');
+                var protectedHMAC = protectedHTML.substring(0, 64);
+                var protectedContent = protectedHTML.substring(64);
+                var decryptedHMAC = CryptoJS.HmacSHA256(
+                    protectedContent,
+                    CryptoJS.SHA256(passphrase).toString()
+                ).toString();
 
-        function randomizePop() {
-            const randomIndex = Math.floor(Math.random() * rainbowColorNames.length);
-            const randomColor = rainbowColorNames[randomIndex];
-            const cssVariable = `--rainbow-${randomColor}`;
-            document.documentElement.style.setProperty('--pop', `var(${cssVariable})`);
+                if (decryptedHMAC === protectedHMAC) {
+                    document.getElementById('password-container').classList.add('hidden');
+                    document.getElementById('page-content').style.display = 'block';
+                    loadPageScripts();
+                }
+            }
+        });
+
+        // Load the page scripts after authentication
+        function loadPageScripts() {
+            function fillGridWithBlanks() {
+                const gridz = document.querySelector('.gridz');
+                const gridStyle = getComputedStyle(gridz);
+
+                const columns = gridStyle.gridTemplateColumns.split(' ').length;
+                const rows = gridStyle.gridTemplateRows.split(' ').length;
+                const totalCells = columns * rows;
+
+                const blankDivs = gridz.querySelectorAll('div:not([id])');
+                blankDivs.forEach(div => div.remove());
+
+                let cellsUsed = 0;
+
+                const positionedElements = gridz.querySelectorAll('[id]');
+                positionedElements.forEach(element => {
+                    const elementStyle = getComputedStyle(element);
+                    const gridColumn = elementStyle.gridColumn;
+                    const gridRow = elementStyle.gridRow;
+
+                    const colParts = gridColumn.split('/').map(s => parseInt(s.trim()));
+                    const rowParts = gridRow.split('/').map(s => parseInt(s.trim()));
+
+                    const colSpan = colParts[1] - colParts[0];
+                    const rowSpan = rowParts[1] - rowParts[0];
+
+                    cellsUsed += colSpan * rowSpan;
+                });
+
+                const blanksNeeded = totalCells - cellsUsed;
+
+                for (let i = 0; i < blanksNeeded; i++) {
+                    const blankDiv = document.createElement('div');
+                    gridz.appendChild(blankDiv);
+                }
+            }
+
+            document.addEventListener('DOMContentLoaded', fillGridWithBlanks);
+            window.addEventListener('resize', fillGridWithBlanks);
+
+            // Anime.js animations
+            document.addEventListener('DOMContentLoaded', () => {
+                const gridDivs = Array.from(document.querySelectorAll('.gridz > div'));
+                const shuffledDivs = gridDivs.sort(() => Math.random() - 0.5);
+
+                anime.timeline()
+                    .add({
+                        targets: shuffledDivs,
+                        opacity: [0, 1],
+                        duration: 100,
+                        easing: 'easeOutQuad',
+                        delay: anime.stagger(30)
+                    }, 0)
+                    .add({
+                        targets: '#content h1',
+                        opacity: [0, 1],
+                        translateY: [30, 0],
+                        rotate: [5, 0],
+                        duration: 800,
+                        easing: 'easeOutElastic(1, .75)'
+                    }, 0)
+                    .add({
+                        targets: '#content p',
+                        opacity: [0, 1],
+                        translateY: [20, 0],
+                        duration: 600,
+                        easing: 'easeOutQuad',
+                        delay: anime.stagger(100)
+                    }, 200)
+                    .add({
+                        targets: 'site-footer',
+                        opacity: [0, 1],
+                        translateY: [20, 0],
+                        duration: 600,
+                        easing: 'easeOutQuad',
+                        delay: anime.stagger(100)
+                    }, 600);
+            });
+
+            const rainbowColorNames = ['red', 'orange', 'yellow', 'green', 'blue', 'purple'];
+
+            function randomizePop() {
+                const randomIndex = Math.floor(Math.random() * rainbowColorNames.length);
+                const randomColor = rainbowColorNames[randomIndex];
+                const cssVariable = `--rainbow-${randomColor}`;
+                document.documentElement.style.setProperty('--pop', `var(${cssVariable})`);
+            }
+
+            randomizePop();
         }
-
-        randomizePop();
     </script>
 
 </body>
