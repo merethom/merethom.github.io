@@ -8,3 +8,10 @@ site-footer {
 site-footer p {
     font-size: 0.9rem;
 }
+
+/* Mobile Layout */
+@media (max-width: 768px) {
+    site-footer {
+        grid-column-end: span 1;
+    }
+}

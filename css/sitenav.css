@@ -68,3 +68,10 @@ site-nav li::before {
 site-nav a.active {
     text-decoration: none;
 }
+
+/* Mobile Layout */
+@media (max-width: 768px) {
+    site-nav {
+        grid-row: span 1;
+    }
+}
