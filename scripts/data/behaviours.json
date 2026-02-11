@@ -5,7 +5,10 @@
             "date": "Feb 11",
             "overview": "This week we dig into the science of learning, and how to support it as a designer.",
             "figmaEmbed": "https://www.figma.com/slides/qck7qFZ6ydJDvwBwpGWm4J",
-            "links": []
+            "links": [{
+                "title": "Sample P2 document (activity examples)",
+                "url": "https://www.figma.com/design/EGJ99P8loJgKXH70qok8nx/Project-2-Demo?node-id=0-1&t=swRov2pT3aZvT559-1"
+            }]
         }, {
             "weekNumber": 5,
             "date": "Feb 4",
