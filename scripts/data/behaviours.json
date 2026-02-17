@@ -1,6 +1,12 @@
 {
     "courseId": "behaviours",
     "weeks": [{
+            "weekNumber": 7,
+            "date": "Feb 18",
+            "overview": "This week we delve into observationa and continue work on your project.",
+            "figmaEmbed": "https://www.figma.com/slides/6FYX5MZVQMdRuCvXPT0dT0",
+            "links": []
+        }, {
             "weekNumber": 6,
             "date": "Feb 11",
             "overview": "This week we dig into the science of learning, and how to support it as a designer.",

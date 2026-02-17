@@ -1,6 +1,10 @@
 {
     "courseId": "thesis2",
     "weeks": [{
+            "weekNumber": 7,
+            "date": "Feb 16 / Family Day, no class",
+            "overview": "No class due to the Family Day holiday. Enjoy the long weekend!"
+        }, {
             "weekNumber": 6,
             "date": "Feb 7",
             "overview": "This week we're doing a refresher on branding concepts/visual design.",
