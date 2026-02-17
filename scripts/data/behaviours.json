@@ -5,7 +5,10 @@
             "date": "Feb 18",
             "overview": "This week we delve into observationa and continue work on your project.",
             "figmaEmbed": "https://www.figma.com/slides/6FYX5MZVQMdRuCvXPT0dT0",
-            "links": []
+            "links": [{
+                "title": "Observation worksheet",
+                "url": "/resources/behaviours/observation-worksheet.pdf"
+            }]
         }, {
             "weekNumber": 6,
             "date": "Feb 11",
