@@ -47,7 +47,9 @@ h1 {
     margin-bottom: 0;
 }
 
-p {
+p,
+ul,
+li {
     font-family: 'Fira Code', monospace;
     font-weight: 400;
     font-style: normal;
@@ -89,6 +91,10 @@ p a[href*="://"]::after {
 
 p a[href*="://"]:hover::after {
     color: var(--dark-mode-bg);
+}
+
+.week-content ul li {
+    margin-bottom: 10px;
 }
 
 body {
