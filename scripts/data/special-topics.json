@@ -1,6 +1,36 @@
 {
     "courseId": "specialTopics",
     "weeks": [{
+            "weekNumber": 7,
+            "date": "Feb 20",
+            "overview": "This class builds directly on last week's introduction to P2. Today we move from understanding into doing by setting a meaningful goal and beginning your research.",
+            "figmaEmbed": "https://www.figma.com/slides/VziUf4RWJDLuz8bduneV6X",
+            "links": [{
+                    "title": "Activity Figjam Board",
+                    "url": "https://www.figma.com/slides/QvFlGUM63EQLPxhz7mVfN1"
+                },
+                {
+                    "title": "Article: Asking for help developer",
+                    "url": "/resources/special-topics/asking-for-help-developer.pdf"
+                },
+                {
+                    "title": "Article: Asking for help is hard",
+                    "url": "/resources/special-topics/asking-for-help-is-hard.pdf"
+                },
+                {
+                    "title": "Article: How to ask for help at work",
+                    "url": "/resources/special-topics/how-to-ask-for-help-at-work.pdf"
+                },
+                {
+                    "title": "Article: How to get the help you need",
+                    "url": "/resources/special-topics/how-to-get-the-help-you-need.pdf"
+                },
+                {
+                    "title": "Article: The neuroscience of trust",
+                    "url": "/resources/special-topics/the-neuroscience-of-trust.pdf"
+                }
+            ]
+        }, {
             "weekNumber": 6,
             "date": "Feb 13",
             "overview": "This week we'll go over the P2 brief and dig into the reasons why it's so hard to ask for help at work (and outside, too).",
