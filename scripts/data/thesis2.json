@@ -1,6 +1,15 @@
 {
     "courseId": "thesis2",
     "weeks": [{
+            "weekNumber": 8,
+            "date": "Mar 2",
+            "overview": "This week we'll be completing the script/storybord activity that's part of Project 5. Today's activity must be completed in class. If this activity is completed outside of class it will not be accepted unless an alternative has been pre-arranged with your instructor at least 1 business day in advance.",
+            "figmaEmbed": "https://www.figma.com/deck/tpJ9Ei4mpSoNJUc9j9nMTs",
+            "links": [{
+                "title": "Script/Storyboard Activity",
+                "url": "https://www.figma.com/board/N1ToO4EJygIVmhVACTNEnU/Project-5-Script-Storyboard-Activity?node-id=0-1&t=zITlh7TewFPyjhYr-1"
+            }]
+        }, {
             "weekNumber": 7,
             "date": "Feb 16 / Family Day, no class",
             "overview": "No class due to the Family Day holiday. Enjoy the long weekend!"

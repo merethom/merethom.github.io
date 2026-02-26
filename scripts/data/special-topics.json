@@ -1,6 +1,15 @@
 {
     "courseId": "specialTopics",
     "weeks": [{
+            "weekNumber": 8,
+            "date": "Mar 6",
+            "overview": "By the end of this workshop you will leave with ideas and/or draft versions of the tool you’ll create for yourself in Project 2.",
+            "figmaEmbed": "https://www.figma.com/deck/Tzj3mDQYcq6eUX2feJ6ZJD",
+            "links": [{
+                "title": "",
+                "url": ""
+            }]
+        }, {
             "weekNumber": 7,
             "date": "Feb 20",
             "overview": "This class builds directly on last week's introduction to P2. Today we move from understanding into doing by setting a meaningful goal and beginning your research.",

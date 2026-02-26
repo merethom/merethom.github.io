@@ -1,6 +1,12 @@
 {
     "courseId": "behaviours",
     "weeks": [{
+            "weekNumber": 8,
+            "date": "Mar 4",
+            "overview": "This class we will go over some final UX paradigms for our tutorial and get time to finish up project 2.",
+            "figmaEmbed": "https://www.figma.com/slides/tnM1ZLeGJm96614c8CnrxY",
+            "links": []
+        }, {
             "weekNumber": 7,
             "date": "Feb 18 / Class ending early at 12:00pm",
             "overview": "<p>An ice storm is forecast for overnight. The college will make the decision if they're open tomorrow or not by 6:30am tomorrow morning. Since our class begins at 9am, here is what will happen in either case:</p><ul><li><b>If the college is CLOSED:</b> Class will be cancelled. Please go through the materials at your own pace before our next class. Please message me on teams if you have specific questions or want any feedback.</li><li><b>If the storm was bad and the college is OPEN:</b> Class will proceed in person, but we will start class at 9:30. Please take your time getting to campus safely; don't feel pressure to rush.</li><li><b>If the college is OPEN because the storm was not bad:</b> class will proceed as normal.</li></ul>",
