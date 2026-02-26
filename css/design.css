@@ -93,6 +93,10 @@ p a[href*="://"]:hover::after {
     color: var(--dark-mode-bg);
 }
 
+details.week-item {
+    font-family: 'findreplace', monospace;
+}
+
 .week-content ul li {
     margin-bottom: 10px;
 }
