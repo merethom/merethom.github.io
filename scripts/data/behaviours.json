@@ -1,80 +1,105 @@
 {
     "courseId": "behaviours",
-    "weeks": [{
+    "weeks": [
+        {
             "weekNumber": 8,
             "date": "Mar 4",
             "overview": "This class we will go over some final UX paradigms for our tutorial and get time to finish up project 2.",
             "figmaEmbed": "https://www.figma.com/slides/tnM1ZLeGJm96614c8CnrxY",
-            "links": []
-        }, {
+            "links": [
+                {
+                    "title": "Sample single-page javascript website",
+                    "url": "https://merethom.github.io/makerbot/"
+                }
+            ]
+        },
+        {
             "weekNumber": 7,
             "date": "Feb 18 / Class ending early at 12:00pm",
             "overview": "<p>An ice storm is forecast for overnight. The college will make the decision if they're open tomorrow or not by 6:30am tomorrow morning. Since our class begins at 9am, here is what will happen in either case:</p><ul><li><b>If the college is CLOSED:</b> Class will be cancelled. Please go through the materials at your own pace before our next class. Please message me on teams if you have specific questions or want any feedback.</li><li><b>If the storm was bad and the college is OPEN:</b> Class will proceed in person, but we will start class at 9:30. Please take your time getting to campus safely; don't feel pressure to rush.</li><li><b>If the college is OPEN because the storm was not bad:</b> class will proceed as normal.</li></ul>",
             "figmaEmbed": "https://www.figma.com/slides/6FYX5MZVQMdRuCvXPT0dT0",
-            "links": [{
-                "title": "Observation worksheet",
-                "url": "/resources/behaviours/observation-worksheet.pdf"
-            }]
-        }, {
+            "links": [
+                {
+                    "title": "Observation worksheet",
+                    "url": "/resources/behaviours/observation-worksheet.pdf"
+                }
+            ]
+        },
+        {
             "weekNumber": 6,
             "date": "Feb 11",
             "overview": "This week we dig into the science of learning, and how to support it as a designer.",
             "figmaEmbed": "https://www.figma.com/slides/qck7qFZ6ydJDvwBwpGWm4J",
-            "links": [{
-                "title": "Sample P2 document (activity examples)",
-                "url": "https://www.figma.com/design/EGJ99P8loJgKXH70qok8nx/Project-2-Demo?node-id=0-1&t=swRov2pT3aZvT559-1"
-            }, {
-                "title": "A fun website about grids",
-                "url": "https://grids.obys.agency/"
-            }]
-        }, {
+            "links": [
+                {
+                    "title": "Sample P2 document (activity examples)",
+                    "url": "https://www.figma.com/design/EGJ99P8loJgKXH70qok8nx/Project-2-Demo?node-id=0-1&t=swRov2pT3aZvT559-1"
+                },
+                {
+                    "title": "A fun website about grids",
+                    "url": "https://grids.obys.agency/"
+                }
+            ]
+        },
+        {
             "weekNumber": 5,
             "date": "Feb 4",
             "overview": "This week we'll look at adding in some animation and continue working on dashboards.",
             "figmaEmbed": "https://www.figma.com/slides/e5sYGhYAaiP6TpDoAKMpa4/----wk05---IxD-Behaviours---Winter-2026?node-id=9-114&t=BLbvkLZOgc7LEyH3-1",
-            "links": [{
-                "title": "Sample P1 Hand-in Document",
-                "url": "https://www.figma.com/design/jwbCa0FFPdQHdUW50E9JZt/Dashboard-Demo?node-id=81-651&t=Ked6FvaXcT5D90dj-1"
-            }]
-        }, {
+            "links": [
+                {
+                    "title": "Sample P1 Hand-in Document",
+                    "url": "https://www.figma.com/design/jwbCa0FFPdQHdUW50E9JZt/Dashboard-Demo?node-id=81-651&t=Ked6FvaXcT5D90dj-1"
+                }
+            ]
+        },
+        {
             "weekNumber": 4,
             "date": "Jan 27",
             "overview": "This week we'll look at adding in some animation and continue working on dashboards.",
             "figmaEmbed": "https://www.figma.com/slides/745MOZTNau43ymO5DGrklk/----wk04---IxD-Behaviours---Winter-2026?node-id=9-114&t=DEzL9KaQgQ5RvU1k-1",
-            "links": [{
-                "title": "Vibecode starting point code",
-                "url": "/resources/behaviours/dashboard-demo.zip"
-            }]
+            "links": [
+                {
+                    "title": "Vibecode starting point code",
+                    "url": "/resources/behaviours/dashboard-demo.zip"
+                }
+            ]
         },
         {
             "weekNumber": 3,
             "date": "Jan 21",
             "overview": "This week we’re looking at all kinds of graphs and digging into some more advanced vibe coding: debugging!",
             "figmaEmbed": "https://www.figma.com/slides/g1dJA68Il24TVk9gK7HFnG/---wk03---IxD-Behaviours---Winter-2026?node-id=9-114&t=4kQGLUsm4FbBZzcF-1",
-            "links": [{
-                "title": "The easy way to draw graphs in Figma",
-                "url": "https://www.loom.com/share/99c20673a8434d21a606e39a77ee9fdb"
-            }]
+            "links": [
+                {
+                    "title": "The easy way to draw graphs in Figma",
+                    "url": "https://www.loom.com/share/99c20673a8434d21a606e39a77ee9fdb"
+                }
+            ]
         },
         {
             "weekNumber": 2,
             "date": "Jan 14",
             "overview": "This week we'll go over some more info about cognitive load, how to manage/design for it, and continue to build our vibe coding skills.",
             "figmaEmbed": "https://www.figma.com/slides/OcbyMXo89PrZ7qx2O3YycD/---wk02---IxD-Behaviours---Winter-2026--Copy-?node-id=9-114&t=j5G4QQ0frTx93u8M-1",
-            "links": [{
-                "title": "Sheridan Dashboard",
-                "url": "https://assets.super.so/a37c2459-cafb-4bb9-aa84-0f2883d3301c/images/93ef8ed4-b994-4deb-9dd8-a22b4fe1afe1/sheridan-dashboard.png"
-            }]
+            "links": [
+                {
+                    "title": "Sheridan Dashboard",
+                    "url": "https://assets.super.so/a37c2459-cafb-4bb9-aa84-0f2883d3301c/images/93ef8ed4-b994-4deb-9dd8-a22b4fe1afe1/sheridan-dashboard.png"
+                }
+            ]
         },
         {
             "weekNumber": 1,
             "date": "Jan 7",
             "overview": "This week we’ll go over the introduction to the course, take a look at the first project, get to know each other, and begin working on your first project.",
             "figmaEmbed": "https://www.figma.com/slides/hvmpoEWumhml95UQG1JGqX/---wk01---IxD-Behaviours---Winter-2026?node-id=9-114&t=o0H8tW2ECIblxTSO-1",
-            "links": [{
-                "title": "Getting to know you survey",
-                "url": "https://forms.microsoft.com/pages/responsepage.aspx?id=V8daRjEhEUe5o9gni1wLFKui-daY0aNDvVADxuH_0nNUOUI2RjVENEEwS0paOThQMDNDTDNYWkFWUS4u&route=shorturl"
-            }]
+            "links": [
+                {
+                    "title": "Getting to know you survey",
+                    "url": "https://forms.microsoft.com/pages/responsepage.aspx?id=V8daRjEhEUe5o9gni1wLFKui-daY0aNDvVADxuH_0nNUOUI2RjVENEEwS0paOThQMDNDTDNYWkFWUS4u&route=shorturl"
+                }
+            ]
         }
     ]
 }
