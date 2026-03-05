@@ -1,6 +1,16 @@
 {
+
     "courseId": "behaviours",
     "weeks": [{
+            "weekNumber": 9,
+            "date": "Mar 12",
+            "overview": "This week we'll introduce project 3 and begin to generate ideas.",
+            "figmaEmbed": " https://www.figma.com/slides/VG3QEeBu1KLztCQ2ZPO3xw",
+            "links": [{
+                "title": "",
+                "url": ""
+            }]
+        }, {
             "weekNumber": 8,
             "date": "Mar 4",
             "overview": "This class we will go over some final UX paradigms for our tutorial and get time to finish up project 2.",
@@ -14,8 +24,16 @@
                     "url": "https://www.loom.com/share/7768bf912f6241ae8c6bd4ddcb0d96f9"
                 },
                 {
-                    "title": "Your website URL will be: https://[your-username].phoenix.sheridanc.on.ca/[project-folder-name]/",
+                    "title": "Your website URL will be: <br> https://[your-username].phoenix.sheridanc.on.ca/[project-folder-name]/",
                     "url": ""
+                },
+                {
+                    "title": "Screens from P2 sample",
+                    "url": " https://www.figma.com/design/EGJ99P8loJgKXH70qok8nx/Project-2-Demo?node-id=95-6&t=il0MI49ZgHppRD3L-1"
+                },
+                {
+                    "title": "Vibe-coded project example",
+                    "url": "https://meredith.design.sheridanc.on.ca/temperature-module/"
                 }
             ]
         },

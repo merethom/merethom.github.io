@@ -1,6 +1,15 @@
 {
     "courseId": "thesis2",
     "weeks": [{
+            "weekNumber": 9,
+            "date": "Mar 9",
+            "overview": "This week we'll talk project mindset and also look at some video tools you might find helpful for your video rough cut.",
+            "figmaEmbed": "https://www.figma.com/slides/kwQlBvv3xpY1rkHjNPtxcQ",
+            "links": [{
+                "title": "",
+                "url": ""
+            }]
+        }, {
             "weekNumber": 8,
             "date": "Mar 2",
             "overview": "This week we'll be completing the script/storybord activity that's part of Project 5. Today's activity must be completed in class. If this activity is completed outside of class it will not be accepted unless an alternative has been pre-arranged with your instructor at least 1 business day in advance.",
