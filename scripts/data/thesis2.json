@@ -2,12 +2,12 @@
     "courseId": "thesis2",
     "weeks": [{
             "weekNumber": 9,
-            "date": "Mar 9",
-            "overview": "This week we'll talk project mindset and also look at some video tools you might find helpful for your video rough cut.",
+            "date": "Mar 9 Class cancelled due to illness",
+            "overview": "I am out sick as I have succumbed to the virus that’s going around. Please review the materials in these slides. I have scheduled a virtual meeting Friday afternoon from 2-4pm for drop-in 1:1s in case you have questions. The link is below.",
             "figmaEmbed": "https://www.figma.com/slides/kwQlBvv3xpY1rkHjNPtxcQ",
             "links": [{
-                "title": "",
-                "url": ""
+                "title": "Link to 1:1 drop in, Friday March 13th from 2pm - 4pm",
+                "url": "https://teams.microsoft.com/meet/22591373679368?p=gpjdw8GGSGi9Ufjkzf"
             }]
         }, {
             "weekNumber": 8,

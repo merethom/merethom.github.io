@@ -1,6 +1,15 @@
 {
     "courseId": "specialTopics",
     "weeks": [{
+            "weekNumber": 9,
+            "date": "Mar 13",
+            "overview": "This week we’ll introduce the 3rd project and learn why design can be so challenging.",
+            "figmaEmbed": "https://www.figma.com/deck/yq6zbAw6YsUZ1jzwZgz6hG",
+            "links": [{
+                "title": "Generate ideas for making in Project 3",
+                "url": "https://www.figma.com/board/Qq56ijij9kfuHQEXngqrlv/P3--Coming-up-with-ideas-of-thing-s--to-make?node-id=0-1&t=fehTwg74ASIT6zNw-1"
+            }]
+        }, {
             "weekNumber": 8,
             "date": "Mar 6",
             "overview": "By the end of this workshop you will leave with ideas and/or draft versions of the tool you’ll create for yourself in Project 2.",
