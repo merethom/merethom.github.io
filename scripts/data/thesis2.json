@@ -1,6 +1,15 @@
 {
     "courseId": "thesis2",
     "weeks": [{
+            "weekNumber": 10,
+            "date": "Mar 16",
+            "overview": "This week we'll be completing the rough cut activity that's part of P5. Today's activity must be completed in class. If this activity is completed outside of class it will not be accepted unless an alternative has been pre-arranged with your instructor at least 1 business day in advance.",
+            "figmaEmbed": "https://www.figma.com/slides/YTXxNUR4kcoYAyF2mkmItj",
+            "links": [{
+                "title": "Rough cut activity",
+                "url": "https://www.figma.com/board/huZfLGNUEYmMI5BM1kA2tf/Project-5-Rough-Cut-Activity?node-id=0-1&t=eNaoYf1qMfGbulls-1"
+            }]
+        }, {
             "weekNumber": 9,
             "date": "Mar 9 Class cancelled due to illness",
             "overview": "I am out sick as I have succumbed to the virus that’s going around. Please review the materials in these slides. I have scheduled a virtual meeting Friday afternoon from 2-4pm for drop-in 1:1s in case you have questions. The link is below.",
