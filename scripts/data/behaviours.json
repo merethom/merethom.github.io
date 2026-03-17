@@ -1,7 +1,17 @@
 {
 
+
     "courseId": "behaviours",
     "weeks": [{
+            "weekNumber": 10,
+            "date": "Mar 17",
+            "overview": "This week we'll work on building a rapid prototype of project 3.",
+            "figmaEmbed": " https://www.figma.com/deck/V4dWmcM9jI8peoUcOmwkeL",
+            "links": [{
+                "title": "",
+                "url": ""
+            }]
+        }, {
             "weekNumber": 9,
             "date": "Mar 12",
             "overview": "This week we'll introduce project 3 and begin to generate ideas.",
