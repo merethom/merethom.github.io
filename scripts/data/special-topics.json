@@ -1,6 +1,15 @@
 {
     "courseId": "specialTopics",
     "weeks": [{
+            "weekNumber": 10,
+            "date": "Mar 20",
+            "overview": "This week we’ll complete an interactive workshop to finish your proposal for the your creation in Project 3.",
+            "figmaEmbed": "https://www.figma.com/slides/Vqfp4p1dtC9sgUSnHHRiVA",
+            "links": [{
+                "title": "Proposal activity",
+                "url": "https://www.figma.com/board/GMYsJ3UPSF0YmqA7w4pYZN/wk10-proposal-activity?node-id=0-1&t=830UkfQYudns5LkH-1"
+            }]
+        }, {
             "weekNumber": 9,
             "date": "Mar 13",
             "overview": "This week we’ll introduce the 3rd project and learn why design can be so challenging.",
