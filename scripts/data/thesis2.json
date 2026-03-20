@@ -1,6 +1,15 @@
 {
     "courseId": "thesis2",
     "weeks": [{
+            "weekNumber": 11,
+            "date": "Mar 23",
+            "overview": "This week we continue to move toward the finish line! We'll look at some sample projects and a new vibe design tool. Are we cooked? Come to class to see and discuss.",
+            "figmaEmbed": "https://www.figma.com/slides/4aVXAuDGG7Fg0BO2xVagyd",
+            "links": [{
+                "title": "Weekly progress tracker",
+                "url": "https://www.figma.com/board/YPsF1tmJScdd7e2BgVwPqr/End-of-term-tracker?node-id=0-1&t=Ss4tVwWeCzx6zV73-1"
+            }]
+        }, {
             "weekNumber": 10,
             "date": "Mar 16",
             "overview": "This week we'll be completing the rough cut activity that's part of P5. Today's activity must be completed in class. If this activity is completed outside of class it will not be accepted unless an alternative has been pre-arranged with your instructor at least 1 business day in advance.",
