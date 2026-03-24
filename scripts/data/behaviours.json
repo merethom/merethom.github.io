@@ -3,6 +3,15 @@
 
     "courseId": "behaviours",
     "weeks": [{
+            "weekNumber": 11,
+            "date": "Mar 25",
+            "overview": "This week we'll work on building a continuing our rapid prototype of project 3.",
+            "figmaEmbed": " https://www.figma.com/deck/qcy9fulmiF2YGeDrrbElEq",
+            "links": [{
+                "title": "SVG files for vibecode demo",
+                "url": "/resources/behaviours/svgs.zip"
+            }]
+        }, {
             "weekNumber": 10,
             "date": "Mar 17",
             "overview": "This week we'll work on building a rapid prototype of project 3.",
