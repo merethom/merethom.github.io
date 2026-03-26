@@ -1,6 +1,15 @@
 {
     "courseId": "specialTopics",
     "weeks": [{
+            "weekNumber": 11,
+            "date": "Mar 27",
+            "overview": "This week we’ll have in-class making time along with peer feedback to work on part of your creation for Project 3.",
+            "figmaEmbed": "https://www.figma.com/deck/Q992gcGOZ1N9om9xT0VlJJ",
+            "links": [{
+                "title": "",
+                "url": ""
+            }]
+        }, {
             "weekNumber": 10,
             "date": "Mar 20",
             "overview": "This week we’ll complete an interactive workshop to finish your proposal for the your creation in Project 3.",
