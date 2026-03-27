@@ -1,6 +1,15 @@
 {
     "courseId": "thesis2",
     "weeks": [{
+            "weekNumber": 12,
+            "date": "Mar 30",
+            "overview": "This week we continue to move toward the finish line!",
+            "figmaEmbed": "https://www.figma.com/deck/UBIiEgvxe10nkE0NUWm1rk",
+            "links": [{
+                "title": "",
+                "url": ""
+            }]
+        }, {
             "weekNumber": 11,
             "date": "Mar 23",
             "overview": "This week we continue to move toward the finish line! We'll look at some sample projects and a new vibe design tool. Are we cooked? Come to class to see and discuss.",
