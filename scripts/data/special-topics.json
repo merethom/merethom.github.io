@@ -1,6 +1,15 @@
 {
     "courseId": "specialTopics",
     "weeks": [{
+            "weekNumber": 12,
+            "date": "Apr 3 / No class due to Good Friday",
+            "overview": "There is no class this week due to the stat holiday. Enjoy the long weekend!",
+            "figmaEmbed": "",
+            "links": [{
+                "title": "",
+                "url": ""
+            }]
+        }, {
             "weekNumber": 11,
             "date": "Mar 27",
             "overview": "This week we’ll have in-class making time along with peer feedback to work on part of your creation for Project 3.",
