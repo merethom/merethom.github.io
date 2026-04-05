@@ -1,6 +1,15 @@
 {
     "courseId": "thesis2",
     "weeks": [{
+            "weekNumber": 13,
+            "date": "Apr 6",
+            "overview": "The penultimate week of class (and last week of in-person class)! Class time is being used primarily for working and 1:1 feedback sessions.",
+            "figmaEmbed": "https://www.figma.com/slides/aPahLZ7QGaLI8wHGC8gssi",
+            "links": [{
+                "title": "",
+                "url": ""
+            }]
+        }, {
             "weekNumber": 12,
             "date": "Mar 30",
             "overview": "This week we continue to move toward the finish line!",
