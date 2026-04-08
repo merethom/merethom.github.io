@@ -3,6 +3,15 @@
 
     "courseId": "behaviours",
     "weeks": [{
+            "weekNumber": 13,
+            "date": "April 8",
+            "overview": "We will continue working on project 3.",
+            "figmaEmbed": "https://www.figma.com/slides/wvNGA246cpDVYe20UDtRht",
+            "links": [{
+                "title": "P3 example file",
+                "url": "https://www.figma.com/design/w2ibirJpRnuXDSKmRwtVUQ/Project-3-Demo?node-id=144-3512&t=4TdoHr3j7iYcj05T-1"
+            }]
+        }, {
             "weekNumber": 12,
             "date": "April 1",
             "overview": "We will continue working on project 3.",
