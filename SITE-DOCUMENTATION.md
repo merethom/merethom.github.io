@@ -89,7 +89,7 @@ All components are defined in `scripts/components.js`. The site uses vanilla Jav
 **localStorage Keys**: `nav-classes`, `nav-about`
 
 #### 4. `<course-info>`
-**Location**: Lines ~248 in components.js
+**Location**: Lines ~249 in components.js
 **Purpose**: Displays course metadata (code, name, term, year)
 **Usage**: `<course-info course-id="specialTopics"></course-info>`
 **Data Source**: `scripts/data/courses.json`
@@ -98,7 +98,7 @@ All components are defined in `scripts/components.js`. The site uses vanilla Jav
 - Dynamic year display
 
 #### 5. `<course-weekly-content>`
-**Location**: Lines ~304 in components.js
+**Location**: Lines ~305 in components.js
 **Purpose**: Displays weekly lecture content with Figma embeds and links
 **Usage**: `<course-weekly-content course-id="specialTopics"></course-weekly-content>`
 **Data Source**: `scripts/data/{course-id}.json` (converted to kebab-case)
@@ -109,7 +109,7 @@ All components are defined in `scripts/components.js`. The site uses vanilla Jav
 - Path-aware (works in subdirectories)
 
 #### 6. `<current-year>`
-**Location**: Lines ~451 in components.js
+**Location**: Lines ~452 in components.js
 **Purpose**: Displays current year dynamically
 **Usage**: `<current-year></current-year>`
 ---
