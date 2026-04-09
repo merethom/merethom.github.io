@@ -8,9 +8,15 @@
             "overview": "We will continue working on project 3.",
             "figmaEmbed": "https://www.figma.com/slides/wvNGA246cpDVYe20UDtRht",
             "links": [{
-                "title": "P3 example file",
-                "url": "https://www.figma.com/design/w2ibirJpRnuXDSKmRwtVUQ/Project-3-Demo?node-id=144-3512&t=4TdoHr3j7iYcj05T-1"
-            }]
+                    "title": "P3 example file",
+                    "url": "https://www.figma.com/design/w2ibirJpRnuXDSKmRwtVUQ/Project-3-Demo?node-id=144-3512&t=4TdoHr3j7iYcj05T-1"
+                },
+                {
+                    "title": "Week 13 recording (not a tutorial)",
+                    "url": "https://www.loom.com/share/89a7da289a814a0d8f4bc52857b01724"
+
+                }
+            ]
         }, {
             "weekNumber": 12,
             "date": "April 1",

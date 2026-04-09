@@ -202,7 +202,8 @@ class SiteNav extends HTMLElement {
         <li><a href="/deadlines.html">Deadline Policy</a></li>
         <li><a href="https://teams.microsoft.com/l/chat/0/0?users=%3Cmeredith.thompson1@sheridancollege.ca%3E" target="_blank">Message Me</a></li>
         <li><a href="https://outlook.office365.com/owa/calendar/MeredithThompson@sheridanc.onmicrosoft.com/bookings/" target="_blank">Office Hours</a></li>
-      </ul>
+        <li><a href="https://www.loom.com/share/65f4dd72c13646ceae328034463b86d4">IxD Course Map</a></li>
+        </ul>
        
       </nav>
     `;
