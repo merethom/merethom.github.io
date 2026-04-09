@@ -1,8 +1,17 @@
 {
     "courseId": "specialTopics",
     "weeks": [{
+            "weekNumber": 13,
+            "date": "Apr 10 ",
+            "overview": "This week we do our P3 Show and Tell and complete some Exit Interviews",
+            "figmaEmbed": "https://www.figma.com/deck/jMH9P1HKuzFe2fTtNvmLQH",
+            "links": [{
+                "title": "",
+                "url": ""
+            }]
+        }, {
             "weekNumber": 12,
-            "date": "Apr 3 / No class due to Good Friday",
+            "date": "Apr 3 No class due to Good Friday",
             "overview": "There is no class this week due to the stat holiday. Enjoy the long weekend!",
             "figmaEmbed": "",
             "links": [{
