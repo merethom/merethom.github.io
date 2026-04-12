@@ -2,6 +2,15 @@
     "courseId": "thesis2",
     "weeks": [{
             "weekNumber": 13,
+            "date": "Apr 13 Virtual 1:1s Only",
+            "overview": "No in person class. There will be drop-ins at the link below.",
+            "figmaEmbed": "",
+            "links": [{
+                "title": "Link to meeting",
+                "url": "https://teams.microsoft.com/meet/242484951876228?p=9Y1TV1CKsrG1TFkGBv"
+            }]
+        }, {
+            "weekNumber": 13,
             "date": "Apr 6",
             "overview": "The penultimate week of class (and last week of in-person class)! Class time is being used primarily for working and 1:1 feedback sessions.",
             "figmaEmbed": "https://www.figma.com/slides/aPahLZ7QGaLI8wHGC8gssi",
