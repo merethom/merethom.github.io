@@ -3,6 +3,16 @@
 
     "courseId": "behaviours",
     "weeks": [{
+            "weekNumber": 14,
+            "date": "April 15",
+            "overview": "Last week of class! I'll be there to help get P3 finished!",
+            "figmaEmbed": "",
+            "links": [{
+                "title": "",
+                "url": ""
+            }]
+        },
+        {
             "weekNumber": 13,
             "date": "April 8",
             "overview": "We will continue working on project 3.",
@@ -17,7 +27,8 @@
 
                 }
             ]
-        }, {
+        },
+        {
             "weekNumber": 12,
             "date": "April 1",
             "overview": "We will continue working on project 3.",
@@ -26,7 +37,8 @@
                 "title": "SVG files for vibecode demo",
                 "url": "/resources/behaviours/svgs.zip"
             }]
-        }, {
+        },
+        {
             "weekNumber": 11,
             "date": "Mar 25",
             "overview": "This week we'll work on building a continuing our rapid prototype of project 3.",
@@ -35,7 +47,8 @@
                 "title": "",
                 "url": ""
             }]
-        }, {
+        },
+        {
             "weekNumber": 10,
             "date": "Mar 17",
             "overview": "This week we'll work on building a rapid prototype of project 3.",
@@ -44,7 +57,8 @@
                 "title": "",
                 "url": ""
             }]
-        }, {
+        },
+        {
             "weekNumber": 9,
             "date": "Mar 12",
             "overview": "This week we'll introduce project 3 and begin to generate ideas.",
@@ -53,7 +67,8 @@
                 "title": "",
                 "url": ""
             }]
-        }, {
+        },
+        {
             "weekNumber": 8,
             "date": "Mar 4",
             "overview": "This class we will go over some final UX paradigms for our tutorial and get time to finish up project 2.",
