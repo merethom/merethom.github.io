@@ -29,6 +29,7 @@ teaching-site/
 │   ├── special-topics.html
 │   ├── thesis1.html
 │   ├── thesis2.html
+│   ├── vdes.html
 ├── css/                      # All site styles
 │   └── design.css              # All site styles
 ├── scripts/                  # All Web Components + utilities
@@ -41,6 +42,7 @@ teaching-site/
 │       ├── special-topics.json       # Course weekly content
 │       ├── thesis1.json              # Course weekly content
 │       ├── thesis2.json              # Course weekly content
+│       ├── visual-design.json        # Course weekly content
 ├── img/                      # Images and icons
 │   ├── badges
 │   ├── favicon.ico
@@ -89,7 +91,7 @@ All components are defined in `scripts/components.js`. The site uses vanilla Jav
 **localStorage Keys**: `nav-classes`, `nav-about`
 
 #### 4. `<course-info>`
-**Location**: Lines ~249 in components.js
+**Location**: Lines ~248 in components.js
 **Purpose**: Displays course metadata (code, name, term, year)
 **Usage**: `<course-info course-id="specialTopics"></course-info>`
 **Data Source**: `scripts/data/courses.json`
@@ -98,7 +100,7 @@ All components are defined in `scripts/components.js`. The site uses vanilla Jav
 - Dynamic year display
 
 #### 5. `<course-weekly-content>`
-**Location**: Lines ~305 in components.js
+**Location**: Lines ~304 in components.js
 **Purpose**: Displays weekly lecture content with Figma embeds and links
 **Usage**: `<course-weekly-content course-id="specialTopics"></course-weekly-content>`
 **Data Source**: `scripts/data/{course-id}.json` (converted to kebab-case)
@@ -109,7 +111,7 @@ All components are defined in `scripts/components.js`. The site uses vanilla Jav
 - Path-aware (works in subdirectories)
 
 #### 6. `<current-year>`
-**Location**: Lines ~452 in components.js
+**Location**: Lines ~451 in components.js
 **Purpose**: Displays current year dynamically
 **Usage**: `<current-year></current-year>`
 ---
@@ -447,4 +449,4 @@ Modify the rainbow color variables and they'll update everywhere:
 
 For questions or issues with the site architecture, refer to this documentation.
 
-**Last Updated**: July 2026
+**Last Updated**: August 2026
