@@ -383,6 +383,23 @@ class CourseWeeklyContent extends HTMLElement {
         `;
             }
 
+            // Render to-do items if present
+            let todoHtml = '';
+            const todoItems = week['to-do'] || week.toDo || [];
+            if (todoItems.length > 0) {
+                const todoList = todoItems.map(item => {
+                    return `<li><a href="${item.url}" target="_blank" class="todo">${item.title}</a></li>`;
+                }).join('');
+                todoHtml = `
+          <div class="week-links week-todo">
+            <h5>to-do</h5>
+            <ul>
+              ${todoList}
+            </ul>
+          </div>
+        `;
+            }
+
             // Render Figma embed if present
             let figmaHtml = '';
             if (week.figmaEmbed) {
@@ -405,10 +422,11 @@ class CourseWeeklyContent extends HTMLElement {
           </summary>
           <div class="week-content">
             <div class="week-overview">
-              <p>${week.overview}</p>
+              ${week.overview}
             </div>
             ${figmaHtml}
             ${linksHtml}
+            ${todoHtml}
           </div>
         </details>
       `;
