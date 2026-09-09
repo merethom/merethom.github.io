@@ -6,6 +6,9 @@
         "overview": "<p>This week we'll go over the introduction to the course, take a look at the first project brief, get to know each other, and begin with some design activities.</p>",
         "figmaEmbed": "https://www.figma.com/slides/bvQnrGZLQNnwT5da9dqfKm",
         "links": [{
+            "title": "Project 1 Template",
+            "url": "/resources/visual-design/visual-design_project1_template.pdf"
+        }, {
             "title": "Getting to know you survey",
             "url": "https://forms.microsoft.com/r/nUFYWa3u2h"
         }]
