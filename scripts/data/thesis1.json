@@ -1,8 +1,24 @@
 {
     "courseId": "thesis1",
     "weeks": [{
-        "weekNumber": 1,
-        "date": "Sept 7 (no class)",
-        "overview": "<p>Welcome to Thesis 1! Since Labour Day falls on our usual class day, we won’t be meeting in person next week.</p><p>Even though we don’t have a class our first week, there are three tasks I’d like you to complete (in the list below). These tasks will help you hit the ground running when we meet on September 14th. These tasks should be completed by September 12th.</p><h4>Thesis to-do list</h4><ul><li><a href=\"https://www.figma.com/board/hwiNJhicQZyIZergOMdjxs/Topic-Generation----Week-1-Take-Home-Method?node-id=0-1&t=BedRCarJ8AXW0sdW-1\">Topic Generation activity (on FigJam)</a></li><li><a href=\"https://www.figma.com/board/1cJLIPA2lQm3gxtwpjho6a/Possible-Topics?node-id=0-1&t=ymNwWxfjZ0M8IDcQ-1\">Once you've generated your topics, post your top 3 on this FigJam board</a></li><li><a href=\"https://www.figma.com/slides/OyujPnFIHsKKzhdCkTr6Y1\">Review the project briefs</a></li></ul>"
-    }]
+            "weekNumber": 1,
+            "date": "Sept 7 (no class)",
+            "overview": "<p>Welcome to Thesis 1! Since Labour Day falls on our usual class day, we won’t be meeting in person next week.</p><p>Even though we don’t have a class our first week, there are three tasks I’d like you to complete (in the list below). These tasks will help you hit the ground running when we meet on September 14th. These tasks should be completed by September 12th.</p><h4>Thesis to-do list</h4><ul><li><a href=\"https://www.figma.com/board/hwiNJhicQZyIZergOMdjxs/Topic-Generation----Week-1-Take-Home-Method?node-id=0-1&t=BedRCarJ8AXW0sdW-1\">Topic Generation activity (on FigJam)</a></li><li><a href=\"https://www.figma.com/board/1cJLIPA2lQm3gxtwpjho6a/Possible-Topics?node-id=0-1&t=ymNwWxfjZ0M8IDcQ-1\">Once you've generated your topics, post your top 3 on this FigJam board</a></li><li><a href=\"https://www.figma.com/slides/OyujPnFIHsKKzhdCkTr6Y1\">Review the project briefs</a></li></ul>"
+        },
+        {
+            "weekNumber": 2,
+            "date": "Sept 14",
+            "overview": "<p>Welcome to our first in-person class of thesis. This week we'll go over the projects, how the class will run, and I will check in with everyone about their topics. I'm excited to see you all!</p>",
+            "figmaEmbed": "https://www.figma.com/slides/j1p2r8ziqcuRUqu9KHsWLk",
+            "links": [{
+                    "title": "Forms website",
+                    "url": "https://meredith.design.sheridanc.on.ca/forms/"
+                },
+                {
+                    "title": "Getting to know your survey",
+                    "url": "https://forms.microsoft.com/r/nUFYWa3u2h"
+                }
+            ]
+        }
+    ]
 }
