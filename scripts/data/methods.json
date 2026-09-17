@@ -1,13 +1,21 @@
 {
     "courseId": "methods",
     "weeks": [{
-        "weekNumber": 1,
-        "date": "Sept 11",
-        "overview": "<p>This week we'll go over the introduction to the course, take a look at the briefs, get to know each other, and begin working on your first project.</p>",
-        "figmaEmbed": "https://www.figma.com/slides/cLIfTgiCNmlP0MAmxrNteH",
-        "links": [{
-            "title": "Getting to know you survey",
-            "url": "https://forms.microsoft.com/r/nUFYWa3u2h"
-        }]
-    }]
-}
+                "weekNumber": 1,
+                "date": "Sept 11",
+                "overview": "<p>This week we'll go over the introduction to the course, take a look at the briefs, get to know each other, and begin working on your first project.</p>",
+                "figmaEmbed": "https://www.figma.com/slides/cLIfTgiCNmlP0MAmxrNteH",
+                "links": [{
+                    "title": "Getting to know you survey",
+                    "url": "https://forms.microsoft.com/r/nUFYWa3u2h"
+                }, {
+                    "weekNumber": 2,
+                    "date": "Sept 18",
+                    "overview": "<p>This week keep moving on project 1a and continue our code explorations.</p>",
+                    "figmaEmbed": "https://www.figma.com/slides/XlFMGwZlYGLH5Yx8uBa24W",
+                    "links": [{
+                        "title": "Project 1a example",
+                        "url": "https://www.figma.com/deck/XFbqv9ug8QL7mnIAt9Ar3v"
+                    }]
+                }]
+            }
