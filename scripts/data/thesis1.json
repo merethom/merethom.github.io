@@ -19,6 +19,16 @@
                     "url": "https://forms.microsoft.com/r/nUFYWa3u2h"
                 }
             ]
+        },
+        {
+            "weekNumber": 3,
+            "date": "Sept 21",
+            "overview": "<p>This week we'll keep moving your project forward and discuss research!</p>",
+            "figmaEmbed": "https://www.figma.com/slides/vaFhsWN2m6sstyL5U7YFTl",
+            "links": [{
+                "title": "Forms website",
+                "url": "https://meredith.design.sheridanc.on.ca/forms/"
+            }]
         }
     ]
 }
