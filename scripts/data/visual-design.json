@@ -22,6 +22,12 @@
                 "title": "Project 1 Indesign Template",
                 "url": "/resources/visual-design/visual-design_project1_template.zip"
             }]
+        },
+        {
+            "weekNumber": 3,
+            "date": "Sept 23",
+            "overview": "<p>This week we'll continue image making and look at a new critique method.</p>",
+            "figmaEmbed": "https://www.figma.com/deck/M7e2LIApky0Wh1sE08d4Xy"
         }
     ]
 }
