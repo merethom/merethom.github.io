@@ -29,6 +29,18 @@
                 "title": "Forms website",
                 "url": "https://meredith.design.sheridanc.on.ca/forms/"
             }]
+
+        },
+        {
+            "weekNumber": 4,
+            "date": "Sept 28",
+            "overview": "<p>This week we'll keep moving your project forward and discuss more research!</p>",
+            "figmaEmbed": "https://www.figma.com/slides/25ctCy5tZCM6pOJ8m66zz8",
+            "links": [{
+                "title": "Bias Management Workbook",
+                "url": "/resources/thesis1/Sqr-One_Toolkit.pdf"
+            }]
+
         }
     ]
 }
