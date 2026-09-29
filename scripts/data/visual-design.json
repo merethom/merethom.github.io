@@ -28,6 +28,18 @@
             "date": "Sept 23",
             "overview": "<p>This week we'll continue image making and look at a new critique method.</p>",
             "figmaEmbed": "https://www.figma.com/deck/M7e2LIApky0Wh1sE08d4Xy"
+        },
+        {
+            "weekNumber": 4,
+            "date": "Sept 30",
+            "overview": "<p>No class this week as we observe the National Day for Truth and Reconcilliation.</p>",
+            "loomEmbeds": [{
+                "title": "Week 4 video 1",
+                "url": "https://www.loom.com/share/3fb53978f382482bbe057db3b9ec701b"
+            }, {
+                "title": "Week 4 video 2",
+                "url": "https://www.loom.com/share/6d2066ceee10472790169a8bafa8bcd5"
+            }]
         }
     ]
 }

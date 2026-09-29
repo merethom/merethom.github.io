@@ -32,6 +32,7 @@ The `courseId` must match the `id` field in `courses.json`.
 | `date` | string | **Yes** | Short date format (e.g., "Jan 15") |
 | `overview` | string | **Yes** | Brief description of what happens this week |
 | `figmaEmbed` | string | No | Full Figma embed URL for lecture slides |
+| `loomEmbeds` | array | No | Loom videos to embed in the week content |
 | `links` | array | No | Additional relevant links for this week |
 
 ### Link Object (within weeks)
@@ -40,6 +41,13 @@ The `courseId` must match the `id` field in `courses.json`.
 |-------|------|----------|-------------|
 | `title` | string | **Yes** | Display text for the link |
 | `url` | string | **Yes** | Full URL (can be internal or external) |
+
+### Loom Embed Object (within `loomEmbeds`)
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `title` | string | **Yes** | Accessible title for the embedded video |
+| `url` | string | **Yes** | Loom share URL; converted to an embed URL when the week opens |
 
 ## Field Formats
 

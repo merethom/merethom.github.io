@@ -409,6 +409,12 @@ class CourseWeeklyContent extends HTMLElement {
         `;
             }
 
+            const loomHtml = (week.loomEmbeds || []).map(embed => `
+                    <div class="week-lecture week-loom">
+                        <iframe class="loom-embed" data-loom-url="${embed.url}" title="${embed.title}" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                `).join('');
+
             // Open the first (most recent) week by default
             const openAttribute = index === 0 ? 'open' : '';
 
@@ -425,6 +431,7 @@ class CourseWeeklyContent extends HTMLElement {
               ${week.overview}
             </div>
             ${figmaHtml}
+            ${loomHtml}
             ${linksHtml}
             ${todoHtml}
           </div>
@@ -443,17 +450,25 @@ class CourseWeeklyContent extends HTMLElement {
       </div>
     `;
 
-        // Add event listeners for lazy-loading Figma embeds
+        // Add event listeners for lazy-loading embeds
         this.querySelectorAll('.week-item').forEach(weekItem => {
-            weekItem.addEventListener('toggle', () => {
-                if (weekItem.open) {
-                    const figmaDiv = weekItem.querySelector('[data-figma-url]');
-                    if (figmaDiv && !figmaDiv.querySelector('iframe')) {
-                        const embedUrl = figmaDiv.getAttribute('data-figma-url');
-                        figmaDiv.innerHTML = `<iframe class="figma-embed" src="${embedUrl}" allowfullscreen></iframe>`;
-                    }
+            const loadEmbeds = () => {
+                const figmaDiv = weekItem.querySelector('[data-figma-url]');
+                if (figmaDiv && !figmaDiv.querySelector('iframe')) {
+                    const embedUrl = figmaDiv.getAttribute('data-figma-url');
+                    figmaDiv.innerHTML = `<iframe class="figma-embed" src="${embedUrl}" allowfullscreen></iframe>`;
                 }
+                weekItem.querySelectorAll('[data-loom-url]').forEach(loomFrame => {
+                    const url = new URL(loomFrame.getAttribute('data-loom-url'));
+                    url.pathname = url.pathname.replace('/share/', '/embed/');
+                    loomFrame.src = url.toString();
+                });
+            };
+
+            weekItem.addEventListener('toggle', () => {
+                if (weekItem.open) loadEmbeds();
             });
+            if (weekItem.open) loadEmbeds();
         });
     }
 }

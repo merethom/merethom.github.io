@@ -135,6 +135,13 @@
     border-radius: 2px;
 }
 
+.loom-embed {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: var(--border-width) solid var(--outline-color);
+    border-radius: 2px;
+}
+
 
 .week-links ul {
     list-style: none;
