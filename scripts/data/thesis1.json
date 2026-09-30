@@ -41,6 +41,17 @@
                 "url": "/resources/thesis1/Sqr-One_Toolkit.pdf"
             }]
 
+        },
+        {
+            "weekNumber": 5,
+            "date": "Oct 5",
+            "overview": "<p>This will be a very full class. Please keep that in mind and know you can book office hours with me during week 6 OR come to tea time either week.</p>",
+            "figmaEmbed": "https://www.figma.com/slides/IZLYkBi5UVmtJicRUD4S5I",
+            "links": [{
+                "title": "Weekly figma board",
+                "url": "https://www.figma.com/board/PmZTMZTxtlTtyc3VLgQ3r1/Weekly-Figma-Board?node-id=0-1&t=vpqAMf2XzTwMlbuJ-1"
+            }]
+
         }
     ]
 }
