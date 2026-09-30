@@ -27,8 +27,17 @@
             "title": "Project 1a example",
             "url": "https://www.figma.com/deck/XFbqv9ug8QL7mnIAt9Ar3v"
         }, {
-            "title": "A good Citation generator",
+            "title": "Citation tool to use for IxD Methods",
             "url": "https://www.mybib.com/"
+        }]
+    }, {
+        "weekNumber": 4,
+        "date": "Oct 2",
+        "overview": "<p>This week keep moving on project 1b.</p>",
+        "figmaEmbed": "https://www.figma.com/deck/XyF3pk7AhN4fMBfBa47UEg",
+        "links": [{
+            "title": "Gemini for writing AND website making",
+            "url": "https://gemini.google.com"
         }]
     }]
 }
