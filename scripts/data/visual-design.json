@@ -40,6 +40,12 @@
                 "title": "Week 4 video 2",
                 "url": "https://www.loom.com/share/6d2066ceee10472790169a8bafa8bcd5"
             }]
+        },
+        {
+            "weekNumber": 5,
+            "date": "Oct 7",
+            "overview": "<p>This week we continue with Project 1.</p>",
+            "figmaEmbed": "https://www.figma.com/deck/9EmDoGbgVTZQB6dleZIRZY"
         }
     ]
 }
