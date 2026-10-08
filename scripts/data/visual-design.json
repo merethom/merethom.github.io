@@ -45,7 +45,12 @@
             "weekNumber": 5,
             "date": "Oct 7",
             "overview": "<p>This week we continue with Project 1.</p>",
-            "figmaEmbed": "https://www.figma.com/deck/9EmDoGbgVTZQB6dleZIRZY"
+            "figmaEmbed": "https://www.figma.com/deck/9EmDoGbgVTZQB6dleZIRZY",
+            "loomEmbeds": [{
+                "title": "Converting Images to Black and White in Photoshop",
+                "url": "https://www.loom.com/share/38e2d075980a405a9442f5bd9c756e75"
+            }]
+
         }
     ]
 }
