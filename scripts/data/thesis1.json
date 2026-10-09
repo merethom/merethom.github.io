@@ -52,6 +52,31 @@
                 "url": "https://www.figma.com/board/PmZTMZTxtlTtyc3VLgQ3r1/Weekly-Figma-Board?node-id=0-1&t=vpqAMf2XzTwMlbuJ-1"
             }]
 
+        },
+        {
+            "weekNumber": 6,
+            "date": "Oct 12 (no class due to Thanksgiving)",
+            "overview": "<p>There is no class this week due to the Thanksgiving holiday. I've included some links that might be helpful for your as you continue to work on your projects.</p>",
+            "links": [{
+                "title": "Method to try: Insights to Design Principles",
+                "url": "https://www.figma.com/board/oPARaD9IUzFHPr3we6hA9r/Design-Principles-Generation---Week-6--In-Class-Method?node-id=0-1&t=JdoTNwougvjAGPaG-1"
+            }, {
+                "title": "Sample Sprint Report",
+                "url": "https://sheridanc-my.sharepoint.com/:b:/g/personal/thommere_shernet_sheridancollege_ca/IQB2Y5XMHYKYTY02VVZAare-AXL8Q8riMrZSfmGIKI7_w3g?e=YLv2xO"
+            }, {
+                "title": "PDF of Sample Presentation",
+                "url": "https://sheridanc-my.sharepoint.com/:b:/g/personal/thommere_shernet_sheridancollege_ca/IQArYCq_4KEaRay0OWG9kqMOASt03zcYH93jdL_uBNnG5n8?e=T8Wvd0"
+            }, {
+                "title": "Video Presentation Example 1",
+                "url": "https://www.youtube.com/watch?v=e5MlZXH1qT8%250A%0A"
+            }, {
+                "title": "Video Presentation Example 2",
+                "url": "https://www.youtube.com/watch?v=BR9xSj9OIL4"
+            }, {
+                "title": "Video Presentation Example 3",
+                "url": "https://www.youtube.com/watch?v=oJjTBuRYvMw"
+            }]
+
         }
     ]
 }
