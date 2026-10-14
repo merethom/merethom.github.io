@@ -51,6 +51,17 @@
                 "url": "https://www.loom.com/share/38e2d075980a405a9442f5bd9c756e75"
             }]
 
+        },
+        {
+            "weekNumber": 6,
+            "date": "Oct 17",
+            "overview": "<p>This week we hand in P1 and begin P2.</p>",
+            "figmaEmbed": "https://www.figma.com/slides/7CQELbMRIUWlcxxmMUyMuV",
+            "loomEmbeds": [{
+                "title": "Pattern-making tool",
+                "url": "https://meredith.design.sheridanc.on.ca/gd/pattern/"
+            }]
+
         }
     ]
 }
