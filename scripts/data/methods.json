@@ -41,12 +41,18 @@
         }]
     }, {
         "weekNumber": 5,
-        "date": "Oct 8",
+        "date": "Oct 9",
         "overview": "<p>This week keep moving on project 1b.</p>",
         "figmaEmbed": "https://www.figma.com/deck/sbAoJA3WWqkHhISf2RjAva",
         "links": [{
             "title": "The Template",
             "url": "/resources/methods/the-template.zip"
         }]
+    }],
+    {
+        "weekNumber": 6,
+        "date": "Oct 16",
+        "overview": "<p>This week keep moving on project 1b and introduce project 2.</p>",
+        "figmaEmbed": "https://www.figma.com/slides/9IYwgqoGYVwHNGykcrl2Is",
     }]
 }
