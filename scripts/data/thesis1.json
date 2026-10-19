@@ -77,6 +77,16 @@
                 "url": "https://www.youtube.com/watch?v=oJjTBuRYvMw"
             }]
 
+        },
+        {
+            "weekNumber": 7,
+            "date": "Oct 19",
+            "overview": "<p>Today our in-class presentations will take place. Please see Teams for the presentation order and make sure to upload your video or figma slides link to the form below. You cannot present until you've uploaded your presentation to the form!</p>",
+            "links": [{
+                "title": "Presentation link form",
+                "url": "https://forms.cloud.microsoft/r/KqJfknDpFE"
+            }]
         }
+
     ]
 }
