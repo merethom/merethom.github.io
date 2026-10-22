@@ -54,5 +54,11 @@
         "overview": "<p>This week keep moving on project 1b and introduce project 2.</p>",
         "figmaEmbed": "https://www.figma.com/slides/9IYwgqoGYVwHNGykcrl2Is",
         "links": []
+    }, {
+        "weekNumber": 7,
+        "date": "Oct 23",
+        "overview": "<p>This week keep moving on project 2.</p>",
+        "figmaEmbed": "https://www.figma.com/slides/y3cwcvVZQOiTRwaL5Up9bC",
+        "links": []
     }]
 }
