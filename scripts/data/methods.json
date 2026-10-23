@@ -59,6 +59,10 @@
         "date": "Oct 23",
         "overview": "<p>This week keep moving on project 2.</p>",
         "figmaEmbed": "https://www.figma.com/slides/y3cwcvVZQOiTRwaL5Up9bC",
-        "links": []
+        "links": [],
+        "loomEmbeds": [{
+            "title": "Exporting your P1b",
+            "url": "https://www.loom.com/share/e41d223b82d2497da1a3d79f6797a6b6"
+        }]
     }]
 }
