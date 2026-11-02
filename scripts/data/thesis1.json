@@ -86,6 +86,11 @@
                 "title": "Presentation link form",
                 "url": "https://forms.cloud.microsoft/r/KqJfknDpFE"
             }]
+        }, {
+            "weekNumber": 8,
+            "date": "Nov 2",
+            "overview": "<p>This week we kick of sprint 2!</p>",
+            "figmaEmbed": "https://www.figma.com/slides/M6oqedxaRLJ2BDVB96ZILJ"
         }
 
     ]
