@@ -73,6 +73,13 @@
                 "url": "/resources/visual-design/project2_files.zip"
             }]
 
+        },
+        {
+            "weekNumber": 8,
+            "date": "Nov 214",
+            "overview": "<p>This week we continue work on P2.</p>",
+            "figmaEmbed": "https://www.figma.com/slides/2JYlBeGhTXmS9yd4gH5qDS"
+
         }
     ]
 }
