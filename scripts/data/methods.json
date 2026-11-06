@@ -69,6 +69,9 @@
         "date": "Nov 6",
         "overview": "<p>This week continue work project 2.</p>",
         "figmaEmbed": "https://www.figma.com/slides/Kcvu9RDi4HmlebqjETfglL",
-        "links": []
+        "links": [{
+            "title": "Auto Layout Tutorial",
+            "url": "https://www.youtube.com/watch?v=2UbxHkiPwxg"
+        }]
     }]
 }
