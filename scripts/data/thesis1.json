@@ -91,6 +91,11 @@
             "date": "Nov 2",
             "overview": "<p>This week we kick off sprint 2!</p>",
             "figmaEmbed": "https://www.figma.com/slides/M6oqedxaRLJ2BDVB96ZILJ"
+        }, {
+            "weekNumber": 9,
+            "date": "Nov 7: Class cancelled due to illness",
+            "overview": "<p>I am sick this week, so class is cancelled. Please review these slides ahead of our next class.</p>",
+            "figmaEmbed": "https://www.figma.com/slides/cMaiZ9j2Z3f0KgZZiTjLER"
         }
 
     ]
