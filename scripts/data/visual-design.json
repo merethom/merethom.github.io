@@ -80,9 +80,16 @@
         },
         {
             "weekNumber": 8,
-            "date": "Nov 214",
+            "date": "Nov 4",
             "overview": "<p>This week we continue work on P2.</p>",
             "figmaEmbed": "https://www.figma.com/slides/2JYlBeGhTXmS9yd4gH5qDS"
+
+        },
+        {
+            "weekNumber": 9,
+            "date": "Nov 11",
+            "overview": "<p>This week we continue work on P2.</p>",
+            "figmaEmbed": "https://www.figma.com/deck/S6Yu07bcLTHD5Z4RIK7qT8"
 
         }
     ]
