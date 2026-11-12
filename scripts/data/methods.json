@@ -73,5 +73,14 @@
             "title": "Auto Layout Tutorial",
             "url": "https://www.youtube.com/watch?v=2UbxHkiPwxg"
         }]
+    }, {
+        "weekNumber": 9,
+        "date": "Nov 13 (online class)",
+        "overview": "<p>This week's class has been moved to online. See Teams for details!.</p>",
+        "figmaEmbed": "https://www.figma.com/slides/JgSbAGl0YIVCcjDOZSzTOu",
+        "links": [{
+            "title": "",
+            "url": ""
+        }]
     }]
 }
