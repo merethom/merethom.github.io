@@ -93,9 +93,14 @@
             "figmaEmbed": "https://www.figma.com/slides/M6oqedxaRLJ2BDVB96ZILJ"
         }, {
             "weekNumber": 9,
-            "date": "Nov 7: Class cancelled due to illness",
+            "date": "Nov 9: Class cancelled due to illness",
             "overview": "<p>I am sick this week, so class is cancelled. Please review these slides ahead of our next class.</p>",
             "figmaEmbed": "https://www.figma.com/slides/cMaiZ9j2Z3f0KgZZiTjLER"
+        }, {
+            "weekNumber": 10,
+            "date": "Nov 16: Online 1:1s",
+            "overview": "<p>This week's class will be online 1:1s. Sign up on this Figma Board for a timeslot then join the call posted on Teams.</p>",
+            "figmaEmbed": "https://www.figma.com/board/PmZTMZTxtlTtyc3VLgQ3r1/Weekly-Figma-Board?node-id=569-243&t=FwlrONX7UBWDaVYA-1"
         }
 
     ]
