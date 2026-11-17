@@ -91,6 +91,24 @@
             "overview": "<p>This week we continue work on P2.</p>",
             "figmaEmbed": "https://www.figma.com/deck/S6Yu07bcLTHD5Z4RIK7qT8"
 
+        },
+        {
+            "weekNumber": 10,
+            "date": "Nov 18",
+            "overview": "<p>This week jump into P3.</p>",
+            "figmaEmbed": "https://www.figma.com/deck/Hi88vy9Gs1NDp7HilOVqFa"
+
         }
+        // ,{
+        //     "weekNumber": 11,
+        //     "date": "Nov 25",
+        //     "overview": "<p>This week keep working on P3.</p>",
+        //     "figmaEmbed": "https://www.figma.com/deck/Hi88vy9Gs1NDp7HilOVqFa",
+        //     "links": [{
+        //         "title": "Warmup Activity File",
+        //         "url": "/resources/visual-design/wk11_warmup.jpeg"
+        //     }]
+
+        // }
     ]
 }
