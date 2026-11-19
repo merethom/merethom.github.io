@@ -82,5 +82,14 @@
             "title": "",
             "url": ""
         }]
+    }, {
+        "weekNumber": 10,
+        "date": "Nov 20 begins at 10:15am",
+        "overview": "<p>This week's class we keep working on P2.</p>",
+        "figmaEmbed": "https://www.figma.com/slides/CawyK9adceJNTA4Gyd2Iis",
+        "links": [{
+            "title": "",
+            "url": ""
+        }]
     }]
 }
