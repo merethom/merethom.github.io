@@ -101,6 +101,11 @@
             "date": "Nov 16: Online 1:1s",
             "overview": "<p>This week's class will be online 1:1s. Sign up on this Figma Board for a timeslot then join the call posted on Teams.</p>",
             "figmaEmbed": "https://www.figma.com/board/PmZTMZTxtlTtyc3VLgQ3r1/Weekly-Figma-Board?node-id=569-243&t=FwlrONX7UBWDaVYA-1"
+        }, {
+            "weekNumber": 11,
+            "date": "Nov 23",
+            "overview": "<p>This week we'll look at some prototyping methods for Sprint 2</p>",
+            "figmaEmbed": "https://www.figma.com/slides/jK52RZA82wpAfI2Wb4ct10"
         }
 
     ]
