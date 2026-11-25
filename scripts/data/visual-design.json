@@ -103,7 +103,11 @@
             "weekNumber": 11,
             "date": "Nov 25",
             "overview": "<p>This week continue working on P3.</p>",
-            "figmaEmbed": "https://www.figma.com/slides/yMaaPvWjJ1yNklIQwtXf1f"
+            "figmaEmbed": "https://www.figma.com/slides/yMaaPvWjJ1yNklIQwtXf1f",
+            "links": [{
+                "title": "Warm up activity image",
+                "url": "/resources/visual-design/wk11_warmup_activity_image.jpg"
+            }]
 
         }
     ]
